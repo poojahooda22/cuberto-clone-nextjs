@@ -1,6 +1,5 @@
 import React from 'react'
-import Bounded from './Bounded';
-import './TopHeader.css';
+// import './TopHeader.css';
 
 function TopHeader() {
   return (
@@ -9,7 +8,7 @@ function TopHeader() {
         <div className='flex flex-col justify-center'>
             <h1>
                 <div className='text-xl inline-block mr-6 md:text-xl text-wrap md:text-balance'>We</div>
-                <em><div className='tophead-title-em text-xl inline-block'>develop</div></em>
+                <em><div className=' text-xl inline-block'>develop</div></em>
                 <div className='flex flex-row items-center'>
                     <span className='tophead-title-span'>
                         <video width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
