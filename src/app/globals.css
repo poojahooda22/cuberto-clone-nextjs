@@ -2,7 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@font-face {
+  font-family: Roboto-reg;
+  src: url(../../public/fonts/roboto-flex-variable-full.ttf);
+}
+@font-face {
+  font-family: Matter-light;
+  src: url(../../public/fonts/matter-light.ttf);
+}
+@font-face {
+  font-family: Matter-reg;
+  src: url(../../public/fonts/matter-regular.ttf);
+}
+
+
+
+body {
+  font-family: Matter-light;
+  overflow-x: hidden;
+}
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +51,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
