@@ -15,7 +15,8 @@ function Header() {
                 width={100} height={100}
             />
             </div>
-            <div className='flex flex-row items-center gap-4'>
+            <div className='flex flex-row 
+            items-center gap-4'>
                 menu
                 <IonIcon name="reorder-two-outline" size="large"></IonIcon> {/* Replace 'ion-icon' with 'IonIcon' */}
             </div>
