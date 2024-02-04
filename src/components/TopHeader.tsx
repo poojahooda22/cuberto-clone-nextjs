@@ -4,8 +4,9 @@ import './TopHeader.css';
 
 function TopHeader() {
   return (
-      <div className='mx-80 my-24'>
-        <div className='tophead-container flex flex-col'>
+      <section className='mx-80 my-24 mb-28 max-w-[50rem]  
+      sm:mb-0 scroll-mt-[100rem]'>
+        <div className='flex flex-col justify-center'>
             <h1>
                 <div className='text-xl inline-block mr-6 md:text-xl text-wrap md:text-balance'>We</div>
                 <em><div className='tophead-title-em text-xl inline-block'>develop</div></em>
@@ -21,7 +22,7 @@ function TopHeader() {
             <div><div>
             </div></div>
         </div> 
-      </div>
+      </section>
   )
 }
 
