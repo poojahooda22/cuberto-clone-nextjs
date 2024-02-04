@@ -23,7 +23,7 @@ function Header() {
                     name="reorder-two-outline" 
                     size="large"
                 >
-                </IonIcon> {/* Replace 'io */}
+                </IonIcon> {/* Replace 'i */}
             </div>
         </div>
     )
