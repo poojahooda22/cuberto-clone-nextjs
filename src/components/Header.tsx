@@ -19,7 +19,8 @@ function Header() {
                 items-center gap-4'
             >
                 menu
-                <IonIcon name="reorder-two-outline" size="large"></IonIcon> {/* Replace 'ion-icon' with 'IonIcon' */}
+                <IonIcon 
+                name="reorder-two-outline" size="large"></IonIcon> {/* Replace 'ion-icon' with 'IonIcon' */}
             </div>
         </div>
     )
