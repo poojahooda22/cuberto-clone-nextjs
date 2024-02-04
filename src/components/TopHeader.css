@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: Roboto-reg;
+    src: url(../../public/fonts/roboto-flex-variable-full.ttf);
+  }
+
+  @font-face {
+    font-family: Matter-light;
+    src: url(../../public/fonts/matter-light.ttf);
+  }
+  @font-face {
+    font-family: Matter-reg;
+    src: url(../../public/fonts/matter-regular.ttf);
+  }
+
+.tophead-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+/* 
+.tophead-title-em {
+    font-family: Roboto-reg;
+    font-weight: 300;
+    font-stretch: 146%;
+    font-variation-settings: "GRAD" -20,"slnt" -10,"YTLC" 553,"opsz" 93;
+    letter-spacing: -.04em;
+} */
+
+.tophead-title-span {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    align-items: center;
+}
+
+.tophead-title-video {
+    position: relative;
+    width: 167px;
+    height: 115px;
+    border-radius: 1000px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-right: 4px;
+}
+
