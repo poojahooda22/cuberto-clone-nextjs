@@ -22,20 +22,19 @@
 }
 
 
-/* 
+
 .tophead-title-em {
     font-family: Roboto-reg;
     font-weight: 300;
     font-stretch: 146%;
     font-variation-settings: "GRAD" -20,"slnt" -10,"YTLC" 553,"opsz" 93;
     letter-spacing: -.04em;
-} */
+}
 
 .tophead-title-span {
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .tophead-title-video {
@@ -45,6 +44,6 @@
     border-radius: 1000px;
     overflow: hidden;
     object-fit: cover;
-    margin-right: 4px;
+    margin-right: 2rem;
 }
 
