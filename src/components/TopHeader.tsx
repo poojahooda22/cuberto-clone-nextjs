@@ -4,14 +4,15 @@ import './TopHeader.css';
 
 function TopHeader() {
   return (
-      <section className='mx-[4rem] my-[12rem] mb-28 sm:mx-[8rem] sm:my-[8rem] lg:mx-[24rem] lg:my-[8rem]
-      sm:mb-0 scroll-mt-[100rem] '>
+      <section className='mx-[2rem] my-[8rem] mb-28 sm:mx-[8rem] sm:my-[8rem] lg:mx-[24rem] lg:my-[8rem]
+      sm:mb-0 scroll-mt-[100rem] h-[100%]'>
         <div className='flex flex-col justify-center overflow-hidden '>
             <div className=''>
                 <h1>
-                    <div>
-                        <div>We</div>
+                    <div className='relative -m-[0.15rem] p-[0.15rem] inline-block'>
+                        <div className='text-md'>We</div>
                     </div>
+                    <em></em>
                 </h1>
             </div>
             {/* <h1 className=''>
