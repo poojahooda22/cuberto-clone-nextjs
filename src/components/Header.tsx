@@ -6,7 +6,7 @@ import Link from 'next/link';
 function Header() {
     return (
         <div 
-            className='flex flex-row items-center justify-between
+            className='flex items-center justify-between
             mx-8 my-2 sticky'
         >
             <div>
