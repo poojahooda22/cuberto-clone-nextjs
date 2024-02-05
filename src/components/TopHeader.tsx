@@ -7,8 +7,8 @@ function TopHeader() {
       sm:mb-0 scroll-mt-[100rem]'>
         <div className='flex flex-col justify-center'>
             <h1 className=''>
-                <div className=' relative text-2xl font-light inline-block mr-6 md:text-xl '>We</div>
-                <em><div className='tophead-title-em text-xl inline-block font-light'>develop</div></em>
+                <div className=' relative text-2xl font-light inline-block mr-6 md:text-xl leading-3'>We</div>
+                <em><div className='tophead-title-em text-xl inline-block font-thin'>develop</div></em>
                 <div className='flex flex-row items-center '>
                     <span className='tophead-title-span'>
                         <video width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
