@@ -19,8 +19,7 @@ function TopHeader() {
                         className='relative -m-[9.15px] p-[9.15px] inline-block'
                     >
                         <div 
-                            className='mr-2'
-                        >
+                            className='mr-2'>
                             We
                         </div>
                     </div>
@@ -63,27 +62,7 @@ function TopHeader() {
                     
 
                 </h1>
-            </div>
-            {/* <h1 className=''>
-                <div className='relative text-2xl inline-block mr-6'>
-                    We
-                </div>
-                <em><div className='tophead-title-em  inline-block font-light '>develop</div></em>
-                <div className='flex flex-row items-center '>
-                    <span className='tophead-title-span'>
-                        <video width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
-                            src="/videos/1.mp4" className='w-[12.2rem] h-[7.6rem] object-cover rounded-[1000px]'
-                        ></video>  
-                        <div className='inline-block text-2xl mr-[2rem] font-light'>digital </div>  
-                    </span>
-                    <div className='text-2xl font-light'> products</div>
-                </div>
-                <div className='flex flex-row'>
-                    <div className='text-2xl mr-[2rem] font-light'>from</div>
-                    <div className='text-2xl'>scratch</div>
-                </div>            
-            </h1> */}
-            
+            </div>            
         </div> 
       </section>
   )
