@@ -5,7 +5,8 @@ import './TopHeader.css';
 function TopHeader() {
   return (
       <section 
-        className=' mx-[1rem] my-[8rem] mb-28 sm:mx-[8rem] sm:my-[8rem] xl:mx-[320px] xl:px-[272px]
+        className=' mx-[1rem] my-[8rem] mb-28 sm:mx-[8rem] sm:my-[8rem] 
+        xl:mx-[320px] xl:px-[272px]
         flex flex-col justify-center'
     >
         <div 
@@ -38,7 +39,7 @@ function TopHeader() {
                                 <video width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
                                     src="/videos/1.mp4" 
                                     className='w-[5.4rem] h-[3.6rem] object-cover rounded-[1000px] mr-[12px] 
-                                    md:w-[89.34px] md:h-[61px]
+                                    
                                     lg:w-[167px] lg:h-[115px]
                                     xl:w-[223px] xl:h-[153px]'
                                 ></video>
