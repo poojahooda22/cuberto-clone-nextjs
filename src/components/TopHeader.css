@@ -40,11 +40,19 @@
 
 .tophead-title-video {
     position: relative;
-    width: 167px;
+    width: 172px;
     height: 115px;
     border-radius: 1000px;
     overflow: hidden;
     object-fit: cover;
     margin-right: 2rem;
+}
+
+@media screen and (max-width: 725px) {
+    .tophead-title-video {
+        width: 88px;
+        height: 58px;
+    }
+  
 }
 
