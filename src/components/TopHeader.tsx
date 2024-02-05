@@ -3,7 +3,7 @@ import './TopHeader.css';
 
 function TopHeader() {
   return (
-      <section className='mx-80 my-24 mb-28 sm:mx-4 sm:my-32
+      <section className='mx-[4rem] my-[32rem] mb-28 sm:mx-[8rem] sm:my-[8rem] lg:mx-[24rem] lg:my-[8rem]
       sm:mb-0 scroll-mt-[100rem]'>
         <div className='flex flex-col justify-center'>
             <h1 className=''>
