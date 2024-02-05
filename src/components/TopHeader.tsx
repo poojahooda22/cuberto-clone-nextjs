@@ -19,6 +19,16 @@ function TopHeader() {
                             </div>
                         </div>
                     </em>
+                    <span>
+                        <div>
+                            <video width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
+                                src="/videos/1.mp4" className='w-[6.4rem] h-[3.8rem] object-cover rounded-[1000px]'
+                            ></video>
+                        </div>
+                        <div className='relative -m-[0.15rem] p-[0.15rem] inline-block'>
+                            <div className='text-sm'>digital</div>
+                        </div>
+                    </span>
                 </h1>
             </div>
             {/* <h1 className=''>
