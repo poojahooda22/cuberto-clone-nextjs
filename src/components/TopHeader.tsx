@@ -10,7 +10,7 @@ function TopHeader() {
         sm:mb-0 scroll-mt-[100rem] h-[100%]'
     >
         <div 
-        className='flex flex-col justify-center overflow-hidden '>
+            className='flex flex-col justify-center overflow-hidden '>
             <div className=''>
                 <h1>
                     <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
