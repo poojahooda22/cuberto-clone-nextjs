@@ -15,11 +15,34 @@ const config: Config = {
       },
     },
       fontSize: {
-        sm: ['14px', '20px'],
-        base: ['16px', '24px'],
-        lg: ['20px', '28px'],
-        xl: ['13rem', '14rem'],
-      }
+        sm: ['61px', '61px'],
+        md: ['66px', '66px'],
+        lg: ['88px', '88px'],
+        xl: ['124px', '124px'],
+        '2xl': ['166px', '166px'],
+        
+      },
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '976px',
+        xl: '1440px',
+        '2xl': '1536px',
+       
+      },
+      colors: {
+        'blue': '#1fb6ff',
+        'pink': '#ff49db',
+        'orange': '#ff7849',
+        'green': '#13ce66',
+        'gray-dark': '#273444',
+        'gray': '#8492a6',
+        'gray-light': '#d3dce6',
+      },
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+        serif: ['Matter-light', 'serif'],
+      },
   },
   plugins: [],
 };
