@@ -5,21 +5,20 @@ import './TopHeader.css';
 function TopHeader() {
   return (
       <section 
-        className='mx-[1rem] my-[8rem] mb-28 sm:mx-[8rem] sm:my-[8rem] 
-        lg:mx-[24rem] lg:my-[8rem]
-        sm:mb-0 scroll-mt-[100rem] h-[100%]'
+        className=' mx-[1rem] my-[8rem] mb-28 sm:mx-[8rem] sm:my-[8rem] xl:mx-[320px] xl:px-[272px]
+        flex flex-col justify-center'
     >
         <div 
-            className='flex flex-col justify-center 
+            className='
             overflow-hidden '
         >
             <div className=''>
-                <h1>
+                <h1  className='text-sm tracking-tighter md:text-lg  lg:text-xl xl:text-2xl'>
                     <div 
                         className='relative -m-[9.15px] p-[9.15px] inline-block'
                     >
                         <div 
-                            className='text-sm mr-2'
+                            className='mr-2'
                         >
                             We
                         </div>
@@ -27,24 +26,40 @@ function TopHeader() {
                     <em>
                         <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
                             <div 
-                                className='text-sm'>
+                                className=''
+                            >
                                 develop
                             </div>
                         </div>
                     </em>
-                    <span className='flex items-center'>
-                        <div>
-                            <video width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
-                                src="/videos/1.mp4" className='w-[5.4rem] h-[3.6rem] object-cover rounded-[1000px] mr-[12px]'
-                            ></video>
+                    <span className='md:flex items-center '>
+                        <div className='flex items-center mr-4'>
+                            <div>
+                                <video width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
+                                    src="/videos/1.mp4" 
+                                    className='w-[5.4rem] h-[3.6rem] object-cover rounded-[1000px] mr-[12px] 
+                                    md:w-[89.34px] md:h-[61px]
+                                    lg:w-[167px] lg:h-[115px]
+                                    xl:w-[223px] xl:h-[153px]'
+                                ></video>
+                            </div>
+                            <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
+                                <div className=''>digital</div>
+                            </div>
                         </div>
-                        <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
-                            <div className='text-sm'>digital</div>
+                        <div className='relative -m-[9.15px] p-[9.15px] md:flex'>
+                            <div className='inline-block'>products</div>
                         </div>
                     </span>
-                    <div>
-                        <div>products</div>
-                    </div>
+                    <span>
+                        <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
+                            <div className='mr-2'>from</div>
+                        </div>
+                        <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
+                            <div className=''>scratch</div>
+                        </div>
+                    </span>
+                    
 
                 </h1>
             </div>
