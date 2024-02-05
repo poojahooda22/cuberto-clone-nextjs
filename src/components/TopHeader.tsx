@@ -10,9 +10,15 @@ function TopHeader() {
             <div className=''>
                 <h1>
                     <div className='relative -m-[0.15rem] p-[0.15rem] inline-block'>
-                        <div className='text-md'>We</div>
+                        <div className='text-sm mr-3'>We</div>
                     </div>
-                    <em></em>
+                    <em>
+                        <div className='relative -m-[0.15rem] p-[0.15rem] inline-block'>
+                            <div className='text-sm'>
+                                develop
+                            </div>
+                        </div>
+                    </em>
                 </h1>
             </div>
             {/* <h1 className=''>
