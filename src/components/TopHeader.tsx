@@ -15,7 +15,8 @@ function TopHeader() {
         >
             <div className=''>
                 <h1>
-                    <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
+                    <div 
+                    className='relative -m-[9.15px] p-[9.15px] inline-block'>
                         <div 
                         className='text-sm mr-2'>
                             We
