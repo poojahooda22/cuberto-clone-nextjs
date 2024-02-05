@@ -4,31 +4,35 @@ import './TopHeader.css';
 
 function TopHeader() {
   return (
-      <section className='mx-[2rem] my-[8rem] mb-28 sm:mx-[8rem] sm:my-[8rem] lg:mx-[24rem] lg:my-[8rem]
+      <section className='mx-[1rem] my-[8rem] mb-28 sm:mx-[8rem] sm:my-[8rem] lg:mx-[24rem] lg:my-[8rem]
       sm:mb-0 scroll-mt-[100rem] h-[100%]'>
         <div className='flex flex-col justify-center overflow-hidden '>
             <div className=''>
                 <h1>
-                    <div className='relative -m-[0.15rem] p-[0.15rem] inline-block'>
-                        <div className='text-sm mr-3'>We</div>
+                    <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
+                        <div className='text-sm mr-2'>We</div>
                     </div>
                     <em>
-                        <div className='relative -m-[0.15rem] p-[0.15rem] inline-block'>
+                        <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
                             <div className='text-sm'>
                                 develop
                             </div>
                         </div>
                     </em>
-                    <span>
+                    <span className='flex items-center'>
                         <div>
                             <video width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
-                                src="/videos/1.mp4" className='w-[6.4rem] h-[3.8rem] object-cover rounded-[1000px]'
+                                src="/videos/1.mp4" className='w-[5.4rem] h-[3.6rem] object-cover rounded-[1000px] mr-[12px]'
                             ></video>
                         </div>
-                        <div className='relative -m-[0.15rem] p-[0.15rem] inline-block'>
+                        <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
                             <div className='text-sm'>digital</div>
                         </div>
                     </span>
+                    <div>
+                        <div>products</div>
+                    </div>
+
                 </h1>
             </div>
             {/* <h1 className=''>
