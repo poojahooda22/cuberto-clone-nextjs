@@ -3,7 +3,7 @@ import './TopHeader.css';
 
 function TopHeader() {
   return (
-      <section className='mx-80 my-24 mb-28  
+      <section className='mx-80 my-24 mb-28 sm:mx-4 sm:my-32
       sm:mb-0 scroll-mt-[100rem]'>
         <div className='flex flex-col justify-center'>
             <h1 className=''>
@@ -12,7 +12,7 @@ function TopHeader() {
                 <div className='flex flex-row items-center '>
                     <span className='tophead-title-span'>
                         <video width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
-                            src="/videos/1.mp4" className='tophead-title-video'
+                            src="/videos/1.mp4" className='tophead-title-video '
                         ></video>  
                         <div className='inline-block text-2xl mr-[2rem]'>digital </div>  
                     </span>
