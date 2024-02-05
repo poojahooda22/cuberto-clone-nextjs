@@ -6,8 +6,8 @@ import Link from 'next/link';
 function Header() {
     return (
         <div 
-            className='flex items-center justify-between
-            mx-8 my-2 sticky'
+            className='flex items-center justify-between 
+            mx-4 my-2 sticky'
         >
             <div>
                 <Link href='/' >
