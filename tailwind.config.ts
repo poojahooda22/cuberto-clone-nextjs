@@ -15,19 +15,18 @@ const config: Config = {
       },
     },
       fontSize: {
-        sm: ['61px', '61px'],
-        md: ['66px', '66px'],
-        lg: ['88px', '88px'],
-        xl: ['124px', '124px'],
+        'sm': ['61px', '61px'],
+        'md': ['66px', '66px'],
+        'lg': ['88px', '88px'],
+        'xl': ['124px', '124px'],
         '2xl': ['166px', '166px'],
         
       },
       screens: {
-        sm: '480px',
-        md: '768px',
-        lg: '976px',
-        xl: '1440px',
-        '2xl': '1536px',
+        'sm': '480px',
+        'md': '768px',
+        'lg': '1440px',
+        'xl': '2560px',
        
       },
       colors: {
@@ -40,8 +39,8 @@ const config: Config = {
         'gray-light': '#d3dce6',
       },
       fontFamily: {
-        sans: ['Roboto', 'sans-serif'],
-        serif: ['Matter-light', 'serif'],
+        'sans': ['Roboto', 'sans-serif'],
+        'serif': ['Matter-light', 'serif'],
       },
   },
   plugins: [],
