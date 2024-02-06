@@ -5,15 +5,15 @@ import './TopHeader.css';
 function TopHeader() {
   return (
       <section 
-        className=' mx-[1rem] my-[8rem] mb-28 sm:mx-[8rem] sm:my-[8rem] 
+        className=' mx-[1rem] my-[8rem] mb-28 
+        sm:mx-[8rem] sm:my-[8rem] 
         xl:mx-[320px] xl:px-[272px]
         flex flex-col justify-center'
     >
         <div 
-            className='
-            overflow-hidden '
+            className='overflow-hidden '
         >
-            <div className=''>
+            <div>
                 <h1  className='text-sm tracking-tighter md:text-lg  lg:text-xl xl:text-2xl'>
                     <div 
                         className='relative -m-[9.15px] p-[9.15px] inline-block'
