@@ -34,7 +34,8 @@ function TopHeader() {
                         <div className='flex items-center mr-4'>
                             <div>
                                 <video 
-                                    width="100%" height="100%" preload="auto" autoPlay playsInline loop muted 
+                                    width="100%" 
+                                    height="100%" preload="auto" autoPlay playsInline loop muted 
                                     src="/videos/1.mp4" 
                                     className='w-[5.4rem] h-[3.6rem] object-cover rounded-[1000px] mr-[12px]                                    
                                     lg:w-[167px] lg:h-[115px]
