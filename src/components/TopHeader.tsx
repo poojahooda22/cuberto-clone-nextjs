@@ -10,8 +10,7 @@ function TopHeader() {
         xl:mx-[320px] xl:px-[272px]
         flex flex-col justify-center'
     >
-        <div 
-className='overflow-hidden'>
+        <div className='overflow-hidden'>
             <div>
                 <h1  className='text-sm tracking-tighter md:text-lg  lg:text-xl xl:text-2xl'>
                     <div 
