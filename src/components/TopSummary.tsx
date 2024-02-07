@@ -23,13 +23,17 @@ function TopSummary() {
                     leading-7 font-medium'>
                         <p>Cuberto is a leading digital product agency focused on branding, UI/UX design, mobile, and web development.</p>
                     </div>
-                    <div>
-                        <span></span>
-                        <span className='mt-[45px]'>
-                            How we Work
-                        </span>
-                    </div>
-                    
+                    <div 
+                        className='mt-[45px] w-[391px] h-[157px] rounded-[1000px] 
+                        border-2 border-gray-dark text-[22px] flex justify-center items-center font-medium'>
+                        <a className=' '>
+                            <span></span>
+                            <span className=''>
+                            
+                                How we Work
+                            </span>
+                        </a>    
+                    </div>   
                 </div>
             </div>
         </div>
