@@ -17,7 +17,7 @@ function TopSummary() {
                         w-[361px] h-[361px]'
                     ></video>
                 </div>
-                <div className=''>
+                <div>
                     <div className='max-w[58rem] text-[27px] tracking-tight 
                     leading-7 font-medium'>
                         <p>Cuberto is a leading digital product agency focused on branding, UI/UX design, mobile, and web development.</p>
