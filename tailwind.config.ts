@@ -26,7 +26,7 @@ const config: Config = {
         'sm': '480px',
         'md': '768px',
         'lg': '1440px',
-        'xl': '2560px',
+        'xl': '2500px',
        
       },
       colors: {
