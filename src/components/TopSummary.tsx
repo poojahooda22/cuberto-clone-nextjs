@@ -28,7 +28,6 @@ function TopSummary() {
                         <a className=' '>
                             <span></span>
                             <span className=''>
-                            
                                 How we Work
                             </span>
                         </a>    
