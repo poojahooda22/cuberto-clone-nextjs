@@ -6,7 +6,7 @@ function TopSummary() {
       <div className='mx-[320px]'>
         <div className='md:flex gap-4'>
             <div>
-            <video 
+                <video 
                     width="100%" 
                                     height="100%" preload="auto" 
                                     autoPlay 
