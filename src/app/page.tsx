@@ -1,4 +1,5 @@
 import TopHeader from "@/components/TopHeader";
+import TopSummary from "@/components/TopSummary";
 import VideoSection from "@/components/VideoSection";
 import Image from "next/image";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="">
       <TopHeader  />
       <VideoSection />
+      <TopSummary />
     </main>
   );
 }
