@@ -5,14 +5,15 @@ import './TopHeader.css';
 function TopHeader() {
   return (
       <section 
-        className=' mx-[1rem] my-[8rem] mb-28 
-        sm:mx-[8rem] sm:my-[8rem] 
-        xl:mx-[320px] xl:px-[272px]
-        flex flex-col justify-center'
+        className='flex flex-col justify-center'
     >
-        <div className='overflow-hidden'>
-            <div>
-                <h1  className='text-sm tracking-tighter md:text-lg  lg:text-xl xl:text-2xl'>
+        <div className='overflow-hidden mx-[1rem] my-[8rem] mb-28 
+        sm:mx-[4rem] sm:my-[8rem] 
+        
+        lg:mx-[220px] xl:px-[272px]'>
+            
+                <h1  className='text-sm tracking-tighter md:text-lg  
+                lg:text-xl xl:text-2xl'>
                     <div 
                         className='relative -m-[9.15px] p-[9.15px] inline-block'
                     >
@@ -49,7 +50,7 @@ function TopHeader() {
                     </span>
                     <span>
                         <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
-                            <div className='mr-2'>from</div>
+                            <div className='mr-4'>from</div>
                         </div>
                         <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
                             <div className=''>scratch</div>
@@ -58,7 +59,7 @@ function TopHeader() {
                     
 
                 </h1>
-            </div>            
+                      
         </div> 
       </section>
   )
