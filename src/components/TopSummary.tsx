@@ -7,7 +7,7 @@ function TopSummary() {
         <div className='md:flex gap-4'>
             <div>
             <video 
-                            width="100%" 
+                        width="100%" 
                                     height="100%" preload="auto" 
                                     autoPlay 
                                     playsInline loop muted 
