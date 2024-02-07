@@ -13,7 +13,7 @@ function TopSummary() {
                         autoPlay 
                         playsInline loop muted 
                         src="/videos/summary.mp4" 
-                                    className=' object-cover rounded-[1000px] mb-[56px] 
+                                className=' object-cover rounded-[1000px] mb-[56px] 
                                         w-[361px] h-[361px]                                   
                                         '
                                     ></video>
