@@ -8,7 +8,7 @@ function TopSummary() {
             <div>
                 <video 
                     width="100%" 
-                                height="100%" preload="auto" 
+                            height="100%" preload="auto" 
                                     autoPlay 
                                     playsInline loop muted 
                                     src="/videos/1.mp4" 
