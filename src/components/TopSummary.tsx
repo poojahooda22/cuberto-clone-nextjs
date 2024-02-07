@@ -27,7 +27,7 @@ function TopSummary() {
                         border-2 border-gray-dark text-[22px] flex justify-center items-center font-medium'>
                         <a className=' '>
                             <span></span>
-                            <span className=''>
+                            <span>
                                 How we Work
                             </span>
                         </a>    
