@@ -16,7 +16,7 @@ function TopSummary() {
                         className=' object-cover rounded-[1000px] mb-[56px] 
                         w-[361px] h-[361px]                                   
                                         '
-                            ></video>
+                        ></video>
                 </div>
                 <div className=''>
                     <div className='max-w[58rem] text-[27px] tracking-tight 
