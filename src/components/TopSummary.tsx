@@ -11,7 +11,7 @@ function TopSummary() {
                     height="100%" preload="auto" 
                     autoPlay 
                     playsInline loop muted 
-                                    src="/videos/1.mp4" 
+                                src="/videos/1.mp4" 
                                     className='w-[5.4rem] h-[3.6rem] object-cover rounded-[1000px] mr-[12px]                                    
                                     lg:w-[167px] lg:h-[115px]
                                     xl:w-[223px] xl:h-[153px]'
