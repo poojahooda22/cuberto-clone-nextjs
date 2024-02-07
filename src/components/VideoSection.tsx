@@ -2,7 +2,7 @@ import React from 'react'
 
 function VideoSection() {
   return (
-    <section>
+    <section className='max-h-[50%]'>
         <div>
             <video 
                 width="100%" 
