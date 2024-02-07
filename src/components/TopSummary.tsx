@@ -2,27 +2,34 @@ import React from 'react'
 
 function TopSummary() {
   return (
-    <section className='flex justify-center py-[180px]'>
-      <div className='mx-[320px]'>
-        <div className='md:flex gap-4'>
-            <div>
-                <div>
+    <section className=' pt-[67px] pb-[90px]'>
+      <div className=' px-[16px] md:px-[81px] '>
+        <div className=''>
+            <div className='md:flex justify-center items-center'>
+                <div className='max-w[302px]' >
                     <video 
                         width="100%" 
                         height="100%" preload="auto" 
                         autoPlay 
                         playsInline loop muted 
-                                src="/videos/1.mp4" 
-                                        className='w-[5.4rem] h-[3.6rem] object-cover rounded-[1000px] mr-[12px]                                    
-                                        lg:w-[167px] lg:h-[115px]
-                                        xl:w-[223px] xl:h-[153px]'
+                                src="/videos/summary.mp4" 
+                                        className=' object-cover rounded-[1000px] mb-[56px] 
+                                        w-[361px] h-[361px]                                   
+                                        '
                                     ></video>
                 </div>
-                <div>
-                    <div>
+                <div className=''>
+                    <div className='max-w[58rem] text-[27px] tracking-tight 
+                    leading-7 font-medium'>
                         <p>Cuberto is a leading digital product agency focused on branding, UI/UX design, mobile, and web development.</p>
                     </div>
-                    <button>How we Work</button>
+                    <div>
+                        <span></span>
+                        <span className='mt-[45px]'>
+                            How we Work
+                        </span>
+                    </div>
+                    
                 </div>
             </div>
         </div>
