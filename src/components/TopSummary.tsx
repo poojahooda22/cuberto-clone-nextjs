@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './TopSummary.css';
 
 function TopSummary() {
   return (
@@ -11,7 +12,7 @@ function TopSummary() {
         <div className=''>
             <div className='md:flex items-center justify-center gap-8'>
                 <div 
-                    className='w-[361px] h-[361px] md:w-[361px] md:h-[361px]
+                    className='w-[361px] h-[361px] md:w-[361px] md:h-[361px] mb-[56px]
                     lg:w-[332px] lg:h-[332px] xl:w-[624px] xl:h-[624px] md:flex items-center' 
                 >
                     <video 
@@ -20,13 +21,13 @@ function TopSummary() {
                         autoPlay 
                         playsInline loop muted 
                         src="/videos/summary.mp4" 
-                        className=' object-cover rounded-[1000px] mb-[56px] md:mb-[24px]
+                        className=' object-cover rounded-[1000px]  md:mb-[24px]
                         '
                     ></video>
                 </div>
                 <div className='sm:max-w-[302px] lg:max-w-[403px] xl:max-w-[688px]'>
-                    <div className='max-w[58rem] text-[27px] tracking-tight 
-                    leading-7 font-matter md:text-[21px] md:leading-[23px] lg:text-[21px] lg:leading-6 xl:text-[40px] xl:leading-[44px]'>
+                    <div className='max-w[58rem] text-[27px] tracking-normal
+                    leading-[29.84px] font-matter md:text-[21px] md:leading-[23px] lg:text-[21px] lg:leading-6 xl:text-[40px] xl:leading-[44px]'>
                         <p>Cuberto is a leading digital product agency focused on branding, UI/UX design, mobile, and web development.</p>
                     </div>
                     <div 
