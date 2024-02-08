@@ -2,7 +2,7 @@ import React from 'react'
 
 function VideoSection() {
   return (
-    <section className='max-h-[50%]'>
+    <section className=''>
         <div>
             <video 
                 width="100%" 
@@ -12,7 +12,7 @@ function VideoSection() {
                 playsInline 
                 loop 
                 muted 
-                src="/videos/1.mp4" className='w-[100%] h-[100%] object-cover '
+                src="/videos/1.mp4" className='max-h-[1000px] object-cover '
             ></video>
         </div>
       
