@@ -1,14 +1,14 @@
 import React from 'react'
-// import './TopHeader.css';
+import './TopHeader.css';
 
 
 function TopHeader() {
   return (
       <section 
-        className='flex flex-col justify-center'
+        className='relative flex flex-col justify-center'
     >
         <div className='overflow-hidden mx-[1rem] my-[8rem] mb-28 
-        sm:mx-[4rem] sm:my-[8rem] 
+        sm:mx-[4rem] sm:my-[4rem] 
         
         lg:mx-[220px] xl:px-[272px]'>
             
