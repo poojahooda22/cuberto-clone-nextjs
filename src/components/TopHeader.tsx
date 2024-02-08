@@ -5,7 +5,7 @@ import './TopHeader.css';
 function TopHeader() {
   return (
       <section 
-        className='relative flex flex-col justify-center'
+        className='relative flex flex-start height-[1000px] '
     >
         <div className='overflow-hidden mx-[1rem] my-[8rem] mb-28 
         sm:mx-[4rem] sm:my-[4rem] 
@@ -23,7 +23,7 @@ function TopHeader() {
                     </div>
                     <em>
                         <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
-                            <div>develop</div>
+                            <div className='developfont font-light'>develop</div>
                         </div>
                     </em>
                     <span className='md:flex items-center '>
