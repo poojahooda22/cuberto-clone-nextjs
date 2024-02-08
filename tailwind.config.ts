@@ -38,8 +38,7 @@ const config: Config = {
         'gray': '#8492a6',
         'gray-light': '#d3dce6',
       },
-      fontFamily: {
-        
+      fontFamily: {  
         'sans': ['roboto', 'sans-serif'],
         'serif': ['Matter-light', 'sans-serif'],
         'matter': ['Matter-regular', 'sans-serif'],
