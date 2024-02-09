@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import SmoothScroll from "@/components/SmoothScroll";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
