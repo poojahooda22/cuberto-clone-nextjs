@@ -1,3 +1,5 @@
+'use client';
+
 import TopHeader from "@/components/TopHeader";
 import TopSummary from "@/components/TopSummary";
 import VideoSection from "@/components/VideoSection";
