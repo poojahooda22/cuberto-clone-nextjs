@@ -12,12 +12,14 @@
     "@reacticons/ionicons": "^7.1.0",
     "@studio-freight/react-lenis": "^0.0.43",
     "clsx": "^2.1.0",
+    "framer-motion": "^11.0.3",
     "gsap": "^3.12.5",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
-    "react-locomotive-scroll": "^0.2.2"
+    "react-locomotive-scroll": "^0.2.2",
+    "sass": "^1.70.0"
   },
   "devDependencies": {
     "@types/node": "^20",
