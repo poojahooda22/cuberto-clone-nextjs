@@ -9,7 +9,7 @@ export default function Index() {
     x: useMotionValue(0),
     y: useMotionValue(0)
   }
-  const smoothOptions = { }
+  const smoothOptions = { damping: 20, stiffness: 300, mass: 0.5 }
   const smoothMouse = {
     x: useSpring(mouse.x),
     y: useSpring(mouse.y)
