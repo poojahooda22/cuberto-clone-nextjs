@@ -1,12 +1,13 @@
 'use client';
 
 import React from 'react'
+import { ReactLenis } from '@studio-freight/react-lenis';
 
 function SmoothScroll() {
   return (
-    <div>
+    <ReactLenis root>
       
-    </div>
+    </ReactLenis>
   )
 }
 
