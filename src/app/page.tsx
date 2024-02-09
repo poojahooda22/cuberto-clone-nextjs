@@ -14,16 +14,14 @@ import 'locomotive-scroll/dist/locomotive-scroll.css';
 
 
 export default function Home({ Component, pageProps }: AppProps) {
-  const { asPath } = useRouter();
-  const containerRef = useRef(null);
-  useEffect(() => {
-    
-  })
+ 
   return (
-    <main>
-      <TopHeader  />
-      <VideoSection />
-      <TopSummary />
-    </main>
+      <main>
+        <TopHeader  />
+        <VideoSection />
+        <TopSummary />
+      </main>
+   
+    
   );
 }
