@@ -5,7 +5,7 @@ import TopSummary from "@/components/TopSummary";
 import VideoSection from "@/components/VideoSection";
 import { useRouter } from 'next/router';
 import type { AppProps } from 'next/app';
-import { useRef } from 'react';
+
 
 
 
