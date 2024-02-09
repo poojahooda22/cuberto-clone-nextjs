@@ -22,10 +22,9 @@ export default function RootLayout({
       <body className="text-slate-900">
         <SmoothScroll>
           <Header />
+          
           {children}
-        </SmoothScroll>
-        
-        
+        </SmoothScroll> 
       </body>
     </html>
   );
