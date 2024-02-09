@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { ReactLenis,  useLenis } from '@studio-freight/react-lenis';
+
 import "./globals.css";
 import Header from "@/components/Header";
 
@@ -16,18 +16,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const lenis = useLenis(({ scroll }) => {
-    // called every scroll
-  })
   return (
-    <ReactLenis root>
-      <html lang="en">
-        <body className="text-slate-900">
-          <Header />
-          {children}
-        </body>
-      </html>
-    </ReactLenis>
-    
+    <html lang="en">
+      <body className="text-slate-900">
+        <Header />
+        {children}
+      </body>
+    </html>
   );
 }
