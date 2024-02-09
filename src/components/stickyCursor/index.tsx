@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react'
 import styles from './style.module.scss';
-import {motion, useMotionValue} from 'framer-motion';
+import {motion, useMotionValue, useSpring} from 'framer-motion';
 
 export default function Index() {
   const cursorSize = 10;
@@ -9,6 +9,8 @@ export default function Index() {
     x: useMotionValue(0),
     y: useMotionValue(0)
   }
+
+  
   const manageMouseMove = (e: any) => {
     const { clientX, clientY} = e;
     mouse.x.set(clientX - cursorSize / 2) 
