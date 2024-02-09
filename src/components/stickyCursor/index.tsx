@@ -10,7 +10,11 @@ export default function Index() {
     y: useMotionValue(0)
   }
 
-  
+  const smoothMouse = {
+    x: useSpring(mouse.x),
+    y: useSpring(mouse.y)
+  }
+
   const manageMouseMove = (e: any) => {
     const { clientX, clientY} = e;
     mouse.x.set(clientX - cursorSize / 2) 
@@ -25,7 +29,7 @@ export default function Index() {
   return (
     <motion.div 
     className={styles.cursor}
-    style={{left: mouse.x, top: mouse.y}}
+    style={{left: smoothMouse.x, top: smoothMouse.y}}
     >
     
     </motion.div>
