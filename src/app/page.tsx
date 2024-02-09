@@ -3,7 +3,7 @@
 import TopHeader from "@/components/TopHeader";
 import TopSummary from "@/components/TopSummary";
 import VideoSection from "@/components/VideoSection";
-import Cursor from "@/components/stickyCursor/index";
+import Cursor from "@/components/stickyCursor/Index";
 
 export default function Home() {
  
