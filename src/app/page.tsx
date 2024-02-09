@@ -10,7 +10,7 @@ export default function Home() {
 
   useEffect(() => {
     (async () => {
-      
+      const LocomotiveScroll = (await import('locomotive-scroll')).default;
     })
   })
   return (
