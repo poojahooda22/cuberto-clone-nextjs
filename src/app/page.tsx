@@ -11,8 +11,6 @@ export default function Home() {
         <TopHeader  />
         <VideoSection />
         <TopSummary />
-      </main>
-   
-    
+      </main> 
   );
 }
