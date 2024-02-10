@@ -30,15 +30,17 @@ const Header = forwardRef(function index(props, ref) {
                 className='flex flex-row 
                 items-center gap-4'
             >
-                <div ref={ref} className='mix-blend-differnece bg-white' >
-                    <IonIcon  
-                        name="reorder-two-outline" 
-                        size="large"
-                        color='mix-blend-difference bg-white'
+                    <a 
+                        ref={ref}
+                        className='fixed mix-blend-difference 
+                        flex items-center -m-12 z-1'
                     >
-                    </IonIcon>
-                </div>
-                
+                        <IonIcon 
+                            name="reorder-two-outline" 
+                            size="large" 
+                            className='hover:bg-white cursor-pointer'
+                        />
+                    </a>   
             </div>
         </div>
     )
