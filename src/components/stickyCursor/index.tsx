@@ -19,8 +19,18 @@ export default function Index({stickyElement}: any) {
 
   const manageMouseMove = (e: any) => {
     const { clientX, clientY} = e;
-    mouse.x.set(clientX - cursorSize / 2) 
-    mouse.y.set(clientY - cursorSize / 2)
+    const { left, top, width, height } = stickyElement.current.getBoundingClientRect();
+
+    const center = {x: left + width / 2, y: top + height / 2};
+
+    if(isHovered) {
+      mouse.x.set(center.x - cursorSize / 2) 
+      mouse.y.set(center.y - cursorSize / 2)
+    } else {
+      mouse.x.set(clientX - cursorSize / 2) 
+      mouse.y.set(clientY - cursorSize / 2)
+    }
+   
   }
 
   const manageMouseOver = () => {
