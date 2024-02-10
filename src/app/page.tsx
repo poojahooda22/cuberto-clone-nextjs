@@ -12,8 +12,8 @@ export default function Home() {
   const stickyElement = useRef(null);
   return (
       <main>
-        <Header />
-        <Cursor />
+        <Header ref={stickyElement} />
+        <Cursor stickyElement={stickyElement} />
         <TopHeader  />
         <VideoSection />
         <TopSummary />
