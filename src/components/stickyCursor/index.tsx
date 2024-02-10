@@ -1,9 +1,11 @@
 
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './style.module.scss';
 import {motion, useMotionValue, useSpring} from 'framer-motion';
 
-export default function Index() {
+export default function Index({stickyElement}: any) {
+  const [isHovered, setHovered] = useState(false);
+
   const cursorSize = 10;
   const mouse = {
     x: useMotionValue(0),
@@ -21,9 +23,24 @@ export default function Index() {
     mouse.y.set(clientY - cursorSize / 2)
   }
 
+  const manageMouseOver = () => {
+    setHovered(true)
+  }
+
+  const manageMouseLeave = () => {
+    setHovered(true)
+  }
+
+
   useEffect( () => {
     window.addEventListener("mousemove", manageMouseMove)
-    return () => {window.removeEventListener("mousemove", manageMouseMove)}
+    stickyElement.current.addEventListener("mouseover", manageMouseOver)
+    stickyElement.current.addEventListener("mouseLeave", manageMouseLeave)
+    return () => {
+      window.removeEventListener("mousemove", manageMouseMove)
+      stickyElement.current.removeEventListener("mouseover", manageMouseOver)
+      stickyElement.current.removeEventListener("mouseLeave", manageMouseLeave)
+    }
   })
 
   return (
