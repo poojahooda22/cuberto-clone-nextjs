@@ -2,6 +2,8 @@ import React from 'react';
 import  IonIcon  from '@reacticons/ionicons'
 import  Image from 'next/image';
 import Link from 'next/link';
+import { forwardRef } from 'react';
+
 
 function Header() {
     return (
