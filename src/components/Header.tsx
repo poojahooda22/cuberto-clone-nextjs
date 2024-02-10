@@ -1,28 +1,28 @@
-'use client';
+// 'use client';
 
-import React from 'react';
-import  IonIcon  from '@reacticons/ionicons'
-import  Image from 'next/image';
-import Link from 'next/link';
-import { forwardRef } from 'react';
-import { useRef } from 'react';
-import './Header.css';
+// import React from 'react';
+// import  IonIcon  from '@reacticons/ionicons'
+// import  Image from 'next/image';
+// import Link from 'next/link';
+// import { forwardRef } from 'react';
+// import { useRef } from 'react';
+// import './Header.css';
 
-const Header = forwardRef(function index(props, ref) {
-    return (
+// const Header = forwardRef(function index(props, ref) {
+//     return (
         
-        <a 
-             ref={ref}
-            className="header"
-        >
-            <div className="burger">
-            </div> 
-            <div className="bounds"></div>                           
-        </a>   
-    )
-})
+//         <a 
+//              ref={ref}
+//             className="header"
+//         >
+//             <div className="burger">
+//             </div> 
+//             <div className="bounds"></div>                           
+//         </a>   
+//     )
+// })
 
-export default Header
+// export default Header
 
 
 {/* <div>
