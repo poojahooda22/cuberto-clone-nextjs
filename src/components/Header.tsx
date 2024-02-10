@@ -16,7 +16,7 @@ const Header = forwardRef(function index(props, ref) {
             className="header"
         >
             <div className="burger">
-                </div> 
+            </div> 
             <div className="bounds"></div>                           
         </a>   
     )
