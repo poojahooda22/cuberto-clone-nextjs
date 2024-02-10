@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { forwardRef } from 'react';
 
 
-function Header() {
+const Header = forwardRef(function index(props, ref) {
     return (
         <div 
             className='flex items-center justify-between 
@@ -33,6 +33,6 @@ function Header() {
             </div>
         </div>
     )
-}
+})
 
 export default Header
