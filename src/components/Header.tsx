@@ -30,12 +30,11 @@ const Header = forwardRef(function index(props, ref) {
                 className='flex flex-row 
                 items-center gap-4'
             >
-               
-                <div ref={ref} className='mix-blend-difference bg-white'>
+                <div ref={ref} className='mix-blend-differnece bg-white' >
                     <IonIcon  
                         name="reorder-two-outline" 
                         size="large"
-                        className='text-white'
+                        color='mix-blend-difference bg-white'
                     >
                     </IonIcon>
                 </div>
