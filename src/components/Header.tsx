@@ -6,6 +6,8 @@ import { forwardRef } from 'react';
 
 
 const Header = forwardRef(function index(props, ref) {
+
+    
     return (
         <div 
             className='flex items-center justify-between 
@@ -26,6 +28,7 @@ const Header = forwardRef(function index(props, ref) {
             >
                 menu
                 <IonIcon 
+                    ref={ref}
                     name="reorder-two-outline" 
                     size="large"
                 >
