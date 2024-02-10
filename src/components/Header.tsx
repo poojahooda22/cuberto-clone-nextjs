@@ -1,8 +1,12 @@
+'use client';
+
 import React from 'react';
 import  IonIcon  from '@reacticons/ionicons'
 import  Image from 'next/image';
 import Link from 'next/link';
 import { forwardRef } from 'react';
+import { useRef } from 'react';
+
 
 
 const Header = forwardRef(function index(props, ref) {
@@ -21,19 +25,21 @@ const Header = forwardRef(function index(props, ref) {
                 </Link>
             
             </div>
-            <div className='flex flex-row 
+            <div 
+                
+                className='flex flex-row 
                 items-center gap-4'
             >
-                menu
+               
+                <div ref={ref} className='mix-blend-difference bg-white'>
+                    <IonIcon  
+                        name="reorder-two-outline" 
+                        size="large"
+                        className='text-white'
+                    >
+                    </IonIcon>
+                </div>
                 
-                <IonIcon 
-                    ref={ref}
-                    name="reorder-two-outline" 
-                    size="large"
-                >
-                </IonIcon>
-                
-                 {/* Re */}
             </div>
         </div>
     )
