@@ -26,20 +26,18 @@ export default function Index({stickyElement}: any) {
   const manageMouseOver = () => {
     setIsHovered(true);
   }
+  const manageMouseLeave = () => {
+    setIsHovered(false);
+  }
 
   useEffect( () => {
-    const currentStickyElement = stickyElement.current;
-    const manageMouseLeave = () => {
-      setIsHovered(false);
-    }
-
     window.addEventListener("mousemove", manageMouseMove)
-    currentStickyElement.addEventListener("mouseover", manageMouseOver)
-    currentStickyElement.addEventListener("mouseleave", manageMouseLeave)
+    stickyElement.current.addEventListener("mouseover", manageMouseOver)
+    stickyElement.current.addEventListener("mouseleave", manageMouseLeave)
     return () => {
       window.removeEventListener("mousemove", manageMouseMove)
-      currentStickyElement.removeEventListener("mouseover", manageMouseOver)
-      currentStickyElement.removeEventListener("mouseleave", manageMouseLeave)
+      stickyElement.current.removeEventListener("mouseover", manageMouseOver)
+      stickyElement.current.removeEventListener("mouseleave", manageMouseLeave)
     }
   })
 
