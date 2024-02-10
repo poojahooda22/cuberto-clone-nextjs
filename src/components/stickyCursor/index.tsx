@@ -4,7 +4,7 @@ import styles from './style.module.scss';
 import {motion, useMotionValue, useSpring} from 'framer-motion';
 
 export default function Index({stickyElement}: any) {
-  const [isHovered, setHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   const cursorSize = 10;
   const mouse = {
@@ -24,11 +24,11 @@ export default function Index({stickyElement}: any) {
   }
 
   const manageMouseOver = () => {
-    setHovered(true)
+    setIsHovered(true);
   }
 
   const manageMouseLeave = () => {
-    setHovered(true)
+    setIsHovered(false);
   }
 
 
