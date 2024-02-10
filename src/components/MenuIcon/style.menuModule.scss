@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+    mix-blend-mode: difference;
+    .burger {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        padding: 30px;
+        cursor: pointer;
+        &::before, &:after {
+            display: block;
+            content: "";
+            width: 30px;
+            height: 2px;
+            mix-blend-mode: difference;
+            background-color: white;
+        }
+    }
+}
