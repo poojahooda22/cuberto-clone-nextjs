@@ -23,12 +23,13 @@
             content: "";
             width: 30px;
             height: 2px;
-            background-color: rgb(17, 13, 13);
+            background-color: black;
             mix-blend-mode: difference;     
         } 
 
         &:hover::before, &:hover::after {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
+            mix-blend-mode: difference;     
         }
     }
     .bounds {
@@ -37,6 +38,7 @@
         top: 0;
         width: 100%;
         height: 100%;
+        z-index: 2;
         pointer-events: all;
         &:hover {
             transform: scale(3); 
