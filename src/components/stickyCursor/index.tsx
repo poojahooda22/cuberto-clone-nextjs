@@ -3,8 +3,6 @@ import React, { useEffect, useState, useRef } from 'react'
 import styles from './style.module.scss';
 import {motion, transform, useMotionValue, useSpring, animate} from 'framer-motion';
 
-
-
 export default function Index({stickyElement}: any) {
   const [isHovered, setIsHovered] = useState(false);
   const cursorRef = useRef();
@@ -27,6 +25,7 @@ export default function Index({stickyElement}: any) {
 
   const rotate = (distance: any) => {
     const angle = Math.atan2(distance.y, distance.x)
+    animate(cursorRef.current, {rotate: `${angle}rad`}, {duration: 0})
   }
 
   const manageMouseMove = (e: any) => {
@@ -37,8 +36,6 @@ export default function Index({stickyElement}: any) {
     const distance = { x: clientX - center.x, y: clientY - center.y };
 
     if(isHovered) {
-
-      
 
       //rotation
       rotate(distance)
@@ -77,19 +74,24 @@ export default function Index({stickyElement}: any) {
       stickyElement.current.removeEventListener("mouseover", manageMouseOver)
       stickyElement.current.removeEventListener("mouseleave", manageMouseLeave)
     }
-  },)
+  })
+
+  const template = ({rotate, scaleX, scaleY}: any) => {
+    return `rotate(${rotate}) scaleX(${scaleX}) scaleY(${scaleY})` 
+  }
 
   return (
     <motion.div 
-    ref={cursorRef}
-    className={styles.cursor}
-    style={{
-      left: smoothMouse.x, 
-      top: smoothMouse.y,
-      scaleX: scale.x,
-      scaleY: scale.y
-    }}
-    animate={{width: cursorSize, height: cursorSize}}
+      transformTemplate={template}
+      ref={cursorRef}
+      className={styles.cursor}
+      style={{
+        left: smoothMouse.x, 
+        top: smoothMouse.y,
+        scaleX: scale.x,
+        scaleY: scale.y
+      }}
+      animate={{width: cursorSize, height: cursorSize}}
     >
     
     </motion.div>
