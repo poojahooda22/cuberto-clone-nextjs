@@ -12,6 +12,8 @@ export default function Framer({children}: any) {
             ref={ref}
             onMouseMove={handleMouse}
             onMouseLeave={reset}
+            animate={{x,y}}
+            transition={{type: "spring", stiffness: 350, damping: 5, mass: 0.5 }}
         >
             {children}
         </motion.div>
