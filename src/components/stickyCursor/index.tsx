@@ -63,7 +63,8 @@ export default function Index({stickyElement}: any) {
     style={{
       left: smoothMouse.x, 
       top: smoothMouse.y,
-      scaleX: scale.x
+      scaleX: scale.x,
+      scaleY: scale.y
     }}
     animate={{width: cursorSize, height: cursorSize}}
     >
