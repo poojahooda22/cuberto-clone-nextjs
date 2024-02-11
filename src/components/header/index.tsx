@@ -17,10 +17,10 @@ const Header = forwardRef(function index(props, ref) {
             alt="" data-cursor-text="Cuberto"
             width={120} height={120}
           />
-        </Link>
-            
+        </Link>      
       </div>
       <div ref={ref} className={styles.burger}></div> 
+      <div className={styles.bounds}></div>
     </div>
   )
 })
