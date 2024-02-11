@@ -20,7 +20,7 @@ const Header = forwardRef(function index(props, ref) {
         </Link>      
       </div>
       <div ref={ref} className={styles.burger}>
-      <div className={styles.bounds}></div>
+        <div className={styles.bounds}></div>
       </div> 
       
     </div>
