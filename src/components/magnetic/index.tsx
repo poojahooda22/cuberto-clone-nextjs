@@ -7,8 +7,10 @@ export default function Framer({children}: any) {
     const [ position, setPosition] = useState({x:0, y:0});
 
     return (
-        <motion.div>
-            
+        <motion.div
+            style={{position: "relative"}}
+        >
+            {children}
         </motion.div>
     )
 }
