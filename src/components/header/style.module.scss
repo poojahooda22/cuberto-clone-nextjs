@@ -8,7 +8,7 @@
     box-sizing: border-box;
     z-index: 1;
     mix-blend-mode: difference;
-    pointer-events: none;
+    
     .burger {
         position: relative;
         display: flex;
@@ -20,17 +20,17 @@
         &::before, &::after {
             display: block;
             content: "";
-            width: 32px;
+            width: 30px;
             height: 2px;    
             mix-blend-mode: difference;      
             background-color: rgb(13, 14, 32); // Initial color
             transition: background-color 0.3s; // Smooth transition for hover effect
         }
 
-        &:hover::before, &:hover::after {
-            background-color: #ffffff;
-            z-index: 1; // Change color to white on hover
-        }
+        // &:hover::before, &:hover::after {
+        //     background-color: #ffffff;
+        //     z-index: 1; // Change color to white on hover
+        // }
 
         .bounds {
             position: absolute;
