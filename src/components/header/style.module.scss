@@ -8,7 +8,7 @@
     box-sizing: border-box;
     cursor: pointer;
     z-index: 1;
-    mix-blend-mode: difference;
+   
     .burger {
         position: relative;
         display: flex;
@@ -18,17 +18,14 @@
         cursor: pointer;
         pointer-events: none;
         z-index: 1;  
-         
         &::before, &::after{
             display: block;
             content: "";
             width: 30px;
             height: 2px;
-            background-color: rgb(10, 10, 13);
-            mix-blend-mode: difference;
+            background-color: rgb(17, 13, 13);
+            mix-blend-mode: difference;     
         } 
-
-    
     }
     .bounds {
         position: absolute;
