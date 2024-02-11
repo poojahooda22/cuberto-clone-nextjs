@@ -60,7 +60,11 @@ export default function Index({stickyElement}: any) {
   return (
     <motion.div 
     className={styles.cursor}
-    style={{left: smoothMouse.x, top: smoothMouse.y}}
+    style={{
+      left: smoothMouse.x, 
+      top: smoothMouse.y,
+      scaleX: scale.x
+    }}
     animate={{width: cursorSize, height: cursorSize}}
     >
     
