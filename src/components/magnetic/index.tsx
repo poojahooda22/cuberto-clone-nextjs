@@ -9,6 +9,9 @@ export default function Framer({children}: any) {
     return (
         <motion.div
             style={{position: "relative"}}
+            ref={ref}
+            onMouseMove={handleMouse}
+            onMouseLeave={reset}
         >
             {children}
         </motion.div>
