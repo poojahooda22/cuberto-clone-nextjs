@@ -23,8 +23,8 @@
             content: "";
             width: 30px;
             height: 2px;
-            background-color: black;
-            mix-blend-mode: difference;     
+            background-color: rgb(255, 255, 255);
+            mix-blend-mode: multiply;     
         } 
 
         &:hover::before, &:hover::after {
