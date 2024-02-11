@@ -11,7 +11,7 @@ export default function Home() {
  
   const stickyElement = useRef(null);
   return (
-      <main className="bg-white">
+      <main >
         <Header ref={stickyElement} />
         <Cursor stickyElement={stickyElement} />
         <TopHeader  />
