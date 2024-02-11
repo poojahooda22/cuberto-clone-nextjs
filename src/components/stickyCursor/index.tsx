@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 import styles from './style.module.scss';
-import {motion, useMotionValue, useSpring} from 'framer-motion';
+import {motion, transform, useMotionValue, useSpring} from 'framer-motion';
 
 export default function Index({stickyElement}: any) {
   const [isHovered, setIsHovered] = useState(false);
@@ -31,6 +31,7 @@ export default function Index({stickyElement}: any) {
 
     //stretch the cursor based on the distance between the pointer and the custom cursor
     const absDistance = Math.max(Math.abs(distance.x), Math.abs(distance.y));
+    const newScaleX = transform(absDistance, [0, width/2], [1, 1.3])
 
     if(isHovered) {
       mouse.x.set((center.x - cursorSize / 2) + distance.x * 0.1 )
