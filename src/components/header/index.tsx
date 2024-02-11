@@ -5,7 +5,7 @@ import  IonIcon  from '@reacticons/ionicons'
 import  Image from 'next/image';
 import Link from 'next/link';
 import { useRef } from 'react';
-
+import Magnetic from '../magnetic/index';
 
 const Header = forwardRef(function index(props, ref) {
   return (
@@ -18,11 +18,11 @@ const Header = forwardRef(function index(props, ref) {
             width={120} height={120}
           />
         </Link>      
-      
-      <div ref={ref} className={styles.burger}>
-        <div className={styles.bounds}>
-        </div>
-      </div>   
+      <Magnetic>
+        <div ref={ref} className={styles.burger}>
+            <div className={styles.bounds}></div>
+        </div> 
+      </Magnetic>     
     </div>
   )
 })
