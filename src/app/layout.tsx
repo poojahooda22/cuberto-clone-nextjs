@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="text-slate-900">
+      <body className="text-slate-900 ">
         <SmoothScroll> 
           {children}
         </SmoothScroll> 
