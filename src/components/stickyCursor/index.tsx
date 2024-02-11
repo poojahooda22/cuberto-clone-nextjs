@@ -17,6 +17,11 @@ export default function Index({stickyElement}: any) {
     y: useSpring(mouse.y, smoothOptions)
   }
 
+  const scale = {
+    x: useMotionValue(1),
+    y: useMotionValue(1)
+  }
+
   const manageMouseMove = (e: any) => {
     const { clientX, clientY} = e;
     const { left, top, width, height } = stickyElement.current.getBoundingClientRect();
