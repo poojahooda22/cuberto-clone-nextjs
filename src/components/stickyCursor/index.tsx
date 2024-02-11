@@ -30,6 +30,7 @@ export default function Index({stickyElement}: any) {
     const distance = { x: clientX - center.x, y: clientY - center.y };
 
     //stretch the cursor based on the distance between the pointer and the custom cursor
+    const absDistance = Math.max
 
     if(isHovered) {
       mouse.x.set((center.x - cursorSize / 2) + distance.x * 0.1 )
