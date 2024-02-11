@@ -26,6 +26,10 @@
             background-color: rgb(17, 13, 13);
             mix-blend-mode: difference;     
         } 
+
+        &:hover::before, &:hover::after {
+            background-color: white;
+        }
     }
     .bounds {
         position: absolute;
