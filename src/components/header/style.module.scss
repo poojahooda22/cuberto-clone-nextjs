@@ -1,12 +1,14 @@
 .header {
+    width: 100%;
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
-    margin: -5rem;
     box-sizing: border-box;
     z-index: 1;
-    mix-blend-mode: difference;
+   
+    
     .burger {
         position: relative;
         display: flex;
@@ -17,10 +19,10 @@
         &::before, &:after {
             display: block;
             content: "";
-            width: 30px;
-            height: 2px;
-            // mix-blend-mode: difference;
-            background-color: rgb(27, 27, 28);
+            width: 32px;
+            height: 2px;          
+            background-color: rgb(13, 14, 32);
+            mix-blend-mode: difference;
         }
 
         .bounds {
