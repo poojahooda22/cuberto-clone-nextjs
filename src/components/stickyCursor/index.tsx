@@ -22,10 +22,11 @@ export default function Index({stickyElement}: any) {
     const { left, top, width, height } = stickyElement.current.getBoundingClientRect();
 
     const center = {x: left + width / 2, y: top + height / 2};
+    const distance = { x: clientX - center.x, y: clientY - center.y };
 
     if(isHovered) {
-      mouse.x.set(center.x - cursorSize / 2) 
-      mouse.y.set(center.y - cursorSize / 2)
+      mouse.x.set((center.x - cursorSize / 2) + distance.x * 0.1 )
+      mouse.y.set((center.y - cursorSize / 2) + distance.y  * 0.1)
     } else {
       mouse.x.set(clientX - cursorSize / 2) 
       mouse.y.set(clientY - cursorSize / 2)
