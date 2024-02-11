@@ -20,7 +20,7 @@ const Header = forwardRef(function index(props, ref) {
         </Link>      
       <Magnetic>
         <div className={styles.burger}>
-            <div ref={ref} className={styles.bounds}></div>
+          <div ref={ref} className={styles.bounds}></div>
         </div> 
       </Magnetic>     
     </div>
