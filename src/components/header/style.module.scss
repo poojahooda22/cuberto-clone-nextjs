@@ -17,6 +17,8 @@
         padding: 30px;
         cursor: pointer;
         pointer-events: none;
+        z-index: 1;
+        
         &::before, &::after {
             display: block;
             content: "";
