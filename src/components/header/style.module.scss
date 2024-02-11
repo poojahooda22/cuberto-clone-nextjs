@@ -23,8 +23,9 @@
             content: "";
             width: 30px;
             height: 2px;
+            mix-blend-mode: difference;
             background-color: rgb(13, 13, 14);
-            mix-blend-mode: multiply;     
+            
         }
     }
     .bounds {
