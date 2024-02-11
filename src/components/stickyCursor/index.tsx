@@ -1,11 +1,12 @@
 
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import styles from './style.module.scss';
 import {motion, transform, useMotionValue, useSpring} from 'framer-motion';
 
+
 export default function Index({stickyElement}: any) {
   const [isHovered, setIsHovered] = useState(false);
-
+  const cursor = useRef(null);
   const cursorSize = isHovered ? 60 : 10;
   const mouse = {
     x: useMotionValue(0),
