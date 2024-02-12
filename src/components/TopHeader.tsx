@@ -5,7 +5,8 @@ import './TopHeader.css';
 function TopHeader() {
   return (
     <section 
-        className=' min-h-[50vh] relative flex justify-center 
+        className=' min-h-[50vh] relative flex 
+        justify-center 
         flex-col'
     >
         <div 
