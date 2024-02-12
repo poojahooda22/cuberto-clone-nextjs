@@ -1,6 +1,7 @@
+
 .header {
-    width: 100%;
     position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +9,7 @@
     box-sizing: border-box;
     cursor: pointer;
     z-index: 1;
-   
+
     .burger {
         position: relative;
         display: flex;
