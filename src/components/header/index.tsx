@@ -15,7 +15,7 @@ const Header = forwardRef(function index(props, ref) {
   
   // useEffect(() => {
   //   let ctx = gsap.context(() => {
-  //     gsap.from(
+  
   
  
   
