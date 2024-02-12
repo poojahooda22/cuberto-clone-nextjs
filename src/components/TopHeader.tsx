@@ -20,8 +20,7 @@ function TopHeader() {
                         className='relative -m-[9.15px] 
                         p-[9.15px] inline-block'
                     >
-                        <div className='mr-2'>We
- </div>
+                        <div className='mr-2'>We</div>
                     </div>
                     <em>
                         <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
