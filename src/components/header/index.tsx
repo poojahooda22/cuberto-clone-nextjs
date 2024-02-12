@@ -12,8 +12,7 @@ import Magnetic from '../magnetic/index';
 import { clsx } from "clsx";
 
 const Header = forwardRef(function index(props, ref) {
-  // const component = useRef(null);
-
+  
   // useEffect(() => {
   //   let ctx = gsap.context(() => {
   //     gsap.from(
