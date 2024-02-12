@@ -21,7 +21,6 @@ function TopHeader() {
                         p-[9.15px] inline-block'
                     >
                         <div className='mr-2'>We
- 
  </div>
                     </div>
                     <em>
