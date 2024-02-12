@@ -20,7 +20,7 @@ const Header = forwardRef(function index(props, ref) {
   //       {backgroundColor: 'white'} 
   //     )
   //   })
-  // })
+  
   return (
     <div className={styles.header}>       
         <Link href='/' >
