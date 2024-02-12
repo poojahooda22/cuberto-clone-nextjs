@@ -9,7 +9,7 @@ function TopHeader() {
         flex-col'
     >
         <div className='overflow-hidden mx-[1rem] my-[8rem] mb-28 
-        sm:mx-[4rem] sm:my-[4rem]       
+            sm:mx-[4rem] sm:my-[4rem]       
         lg:mx-[220px] xl:px-[272px]'>           
                 <h1  
                     className='text-sm tracking-tighter md:text-lg  
