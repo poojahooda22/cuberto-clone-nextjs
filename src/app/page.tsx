@@ -6,12 +6,14 @@ import VideoSection from "@/components/VideoSection";
 import Cursor from "@/components/stickyCursor/Index";
 import Header from "@/components/header/index";
 import { useRef } from 'react';
+import styles from './page.module.scss'
+
 
 export default function Home() {
  
   const stickyElement = useRef(null);
   return (
-      <main >
+      <main className={styles.main}>
         <Header ref={stickyElement} />
         <Cursor stickyElement={stickyElement} />
         <TopHeader  />
