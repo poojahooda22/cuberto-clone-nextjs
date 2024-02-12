@@ -1,13 +1,27 @@
-import React from 'react'
+'use client';
+
+import React, { useEffect } from 'react'
 import styles from './style.module.scss'
 import { forwardRef } from 'react'
 import  IonIcon  from '@reacticons/ionicons'
 import  Image from 'next/image';
 import Link from 'next/link';
 import { useRef } from 'react';
+import { gsap } from 'gsap';  
 import Magnetic from '../magnetic/index';
+import { clsx } from "clsx";
 
 const Header = forwardRef(function index(props, ref) {
+  // const component = useRef(null);
+
+  // useEffect(() => {
+  //   let ctx = gsap.context(() => {
+  //     gsap.from(
+  //       ".burger", 
+  //       {backgroundColor: 'white'} 
+  //     )
+  //   })
+  // })
   return (
     <div className={styles.header}>       
         <Link href='/' >
