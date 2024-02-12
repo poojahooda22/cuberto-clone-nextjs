@@ -18,14 +18,14 @@
         padding: 30px;
         cursor: pointer;
         pointer-events: none;
-        z-index: 2; 
+        
         &::before, &::after{
             display: block;
             content: "";
             width: 30px;
             height: 2px;
             mix-blend-mode: difference;
-            background-color: rgb(13, 13, 14);
+            background-color: rgb(255, 255, 255);
             
         }
     }
