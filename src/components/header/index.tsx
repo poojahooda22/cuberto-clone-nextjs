@@ -14,11 +14,7 @@ import { clsx } from "clsx";
 const Header = forwardRef(function index(props, ref) {
   
 
-  
-  
- 
-  
-  
+
   return (
     <div className={styles.header}>       
         <Link href='/' >
