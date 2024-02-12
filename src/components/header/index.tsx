@@ -17,8 +17,7 @@ const Header = forwardRef(function index(props, ref) {
   //   let ctx = gsap.context(() => {
   //     gsap.from(
   //       ".burger", 
-  //       {backgroundColor: 'white'} 
-  //     )
+ 
   
   
   return (
