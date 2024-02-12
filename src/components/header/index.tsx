@@ -19,7 +19,7 @@ const Header = forwardRef(function index(props, ref) {
   //       ".burger", 
   //       {backgroundColor: 'white'} 
   //     )
-  //   })
+  
   
   return (
     <div className={styles.header}>       
