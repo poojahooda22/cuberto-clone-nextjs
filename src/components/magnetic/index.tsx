@@ -16,7 +16,7 @@ export default function Framer({children}: any) {
 
     const reset = () => {
         setPosition({x:0, y:0})
-    }
+    };
 
     const { x, y } = position;
 
