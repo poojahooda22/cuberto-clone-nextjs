@@ -15,7 +15,7 @@ function TopHeader() {
             lg:mx-[220px] xl:px-[272px]'
         >           
             <h1  
-                    className='text-sm tracking-tighter md:text-lg  
+                className='text-sm tracking-tighter md:text-lg  
                     lg:text-xl xl:text-2xl'>
                     <div 
                         className='relative -m-[9.15px] 
