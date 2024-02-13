@@ -12,7 +12,7 @@ function VideoSection() {
                 playsInline 
                 loop 
                 muted 
-                src="/videos/1.mp4" className='max-h-[1000px] object-cover '
+                src="/videos/1.mp4" className='max-h-[100vh] object-cover '
             ></video>
         </div>
       
