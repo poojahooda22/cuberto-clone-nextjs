@@ -26,7 +26,7 @@ function TopHeader() {
                         <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
                             <div className='developfont font-light'>
                                 develop
-    </div>
+</div>
                         </div>
                     </em>
                     <span className='md:flex items-center '>
