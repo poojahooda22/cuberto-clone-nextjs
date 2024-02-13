@@ -43,7 +43,7 @@
   height: 115px;
   border-radius: 1000px;
   overflow: hidden;
-    object-fit: cover;
+  object-fit: cover;
     margin-right: 2rem;
 }
 
