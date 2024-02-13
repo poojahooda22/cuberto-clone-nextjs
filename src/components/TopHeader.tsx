@@ -17,7 +17,7 @@ function TopHeader() {
             <h1  
                 className='text-sm tracking-tighter md:text-lg  
                     lg:text-xl xl:text-2xl'
-                >
+            >
                     <div 
                         className='relative -m-[9.15px] 
                         p-[9.15px] inline-block'
