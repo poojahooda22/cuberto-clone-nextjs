@@ -52,17 +52,17 @@ function TopHeader() {
                             <div className='inline-block'>products</div>
                         </div>
                     </span>
-                    <span>
+                <span>
                         <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
                             <div className='mr-4'>from</div>
                         </div>
                         <div className='relative -m-[9.15px] p-[9.15px] inline-block'>
                             <div className=''>scratch</div>
                         </div>
-                    </span>    
-                </h1>              
+                </span>    
+            </h1>              
         </div> 
-      </div>
+    </div>
   )
 }
 
