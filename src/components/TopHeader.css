@@ -42,7 +42,7 @@
   width: 172px;
   height: 115px;
   border-radius: 1000px;
-    overflow: hidden;
+  overflow: hidden;
     object-fit: cover;
     margin-right: 2rem;
 }
