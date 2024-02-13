@@ -12,7 +12,7 @@ function SmoothScroll({
     <ReactLenis root>
         {children}
     </ReactLenis>
-  )
+  );
 }
 
 export default SmoothScroll;
