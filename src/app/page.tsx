@@ -6,7 +6,7 @@ import VideoSection from "@/components/VideoSection";
 import Cursor from "@/components/StickyCursor/Index";
 import Header from "@/components/Header/Index";
 import { useRef } from 'react';
-import styles from './page.module.scss'
+import styles from './page.module.scss';
 
 
 export default function Home() {
