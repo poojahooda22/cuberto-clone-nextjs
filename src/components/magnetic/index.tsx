@@ -31,5 +31,5 @@ export default function Framer({children}: any) {
         >
             {children}
         </motion.div>
-    )
+    );
 }
