@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState, useRef } from 'react';
 import styles from './style.module.scss';
 import {motion, transform, useMotionValue, useSpring, animate} from 'framer-motion';
 
