@@ -15,4 +15,4 @@ function SmoothScroll({
   )
 }
 
-export default SmoothScroll
+export default SmoothScroll;
