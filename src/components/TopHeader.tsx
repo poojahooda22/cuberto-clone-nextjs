@@ -19,7 +19,7 @@ function TopHeader() {
                 lg:text-xl xl:text-2xl'
             >
                 <div 
-                        className='relative -m-[9.15px] 
+                    className='relative -m-[9.15px] 
                         p-[9.15px] inline-block'
                     >
                         <div className='mr-2'>We</div>
