@@ -35,7 +35,7 @@ function TopSummary() {
                         md:w-[232px] md:h-[104px] md:mt-[28px]
                         lg:w-[313px] lg:h-[138px] lg:mt-[24px]
                         xl:w-[588px] xl:h-[263px] xl:mt-[72px]
-                        border-2 border-gray-dark text-[22px] md:text-[16px] lg:text-[21px] xl:text-[40px]
+                        border-2 text-[22px] md:text-[16px] lg:text-[21px] xl:text-[40px]
                         flex justify-center items-center font-matter'>
                         <a className=' '>
                             <span></span>
