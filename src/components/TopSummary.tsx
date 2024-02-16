@@ -46,7 +46,7 @@ function TopSummary() {
                                 </span>
                                 <span>
                                 <span className='text-center'>
-                                    How we Work
+                                    
                                 </span>                                                                                                                          
                             </span> */}
 
