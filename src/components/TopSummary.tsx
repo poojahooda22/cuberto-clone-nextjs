@@ -43,8 +43,7 @@ function TopSummary() {
                                 <span className=
                                     "absolute inset-0 z-0 h-full translate-y-28 bg-[#000] transition-transform duration-700 ease-in-out group-hover:translate-y-0">
 
-                                </span>
-                                <span>                                                                                                                                                                                       
+                                </span>                                                                                                                                                                                      
                             </span> */}
 
                         <button className="cb-btn cb-btn_more">
