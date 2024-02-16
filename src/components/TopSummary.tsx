@@ -41,7 +41,7 @@ function TopSummary() {
                                 )}
                             >
                                 <span className=
-                                    "absolute inset-0 z-0 h-full translate-y-28 bg-[#000] transition-transform duration-700">
+                                    "absolute inset-0 z-0 h-full translate-y-28 bg-[#000] transition-transform ">
                                 </span>                                                                                                                                                                                      
                             </span> */}
 
