@@ -41,7 +41,7 @@ function TopSummary() {
                                 )}
                             >
                                 <span className=
-                                    "absolute inset-0 z-0 h-full">
+                                    "absolute inset-0 z-0">
                                 </span>                                                                                                                                                                                      
                             </span> */}
 
