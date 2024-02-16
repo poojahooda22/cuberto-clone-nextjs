@@ -39,18 +39,19 @@ function TopSummary() {
                                 className={clsx( "group mt-[45px] w-[391px] h-[157px] bg-transparent rounded-[1000px] md:w-[232px] md:h-[104px] md:mt-[28px]lg:w-[313px] lg:h-[138px] lg:mt-[24px]xl:w-[588px] xl:h-[263px] xl:mt-[72px]border-2 text-[22px] md:text-[16px] lg:text-[21px] xl:text-[40px] font-matter  relative flex  text-slate-800 items-center justify-center overflow-hidden border-2 border-slate-900 bg-slate-50 px-4 py-2 font-bold transition-transform ease-out hover:scale-105",
                                 )}
                             >
+                                <span>
+                                <span className='text-center'>
+                                    How we Work
+                                </span>
+                            </span>
 
                             </span>
-                            <span 
-                                className={clsx(
-                                    "absolute inset-0 z-0 h-full translate-y-9 bg-yellow-700 transition-transform duration-300 ease-in-out group-hover:translate-y-0"
-                                )}
-                            >   
-                            </span>
-                            <span className='relative flex items-center justify-center gap-2'>
-                                How we Work
-                            </span>
-                            
+                            {/* <span 
+                                className=
+                                    "absolute inset-0 z-0 h-full translate-y-9 bg-gray-dark transition-transform duration-300 ease-in-out group-hover:translate-y-0"
+                               
+                            >    */}
+                                    
                     </Link>   
                 </div>
             </div>
