@@ -5,7 +5,7 @@
     display: inline-block;
     height: 197px;
     width: 401px;
-    margin: 0;
+    margin-top: 45px;
     padding: 0;
     color: inherit;
     background: 0 0;
@@ -56,6 +56,18 @@
     .cb-btn_more-title span {
       font-size: 26px;
     }
+}
+
+.cb-btn_more-title span:before {
+    content: attr(data-text);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(300%) skewY(5deg);
+    /* transform-origin: left top; */
+    transition: transform 0.4s;
+
 }
 
 .cb-btn_more-title span:after {
