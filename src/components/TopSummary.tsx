@@ -37,8 +37,7 @@ function TopSummary() {
                     >
                         
                             {/* <span
-                                className={clsx( "group mt-[45px] w-[391px] h-[157px] bg-transparent rounded-[1000px] md:w-[232px] md:h-[104px] md:mt-[28px]lg:w-[313px] lg:h-[138px] lg:mt-[24px]xl:w-[588px] xl:h-[263px] xl:mt-[72px]border-2 text-[22px] md:text-[16px] lg:text-[21px] xl:text-[40px] font-matter  relative flex  text-slate-800 items-center justify-center overflow-hidden border-2 border-slate-900 bg-slate-50 px-4 py-2 transition-transform ease-out ",
-                                )}                                                                                                                                                                                
+                                className={clsx( "group mt-[45px] w-[391px] h-[157px] bg-transparent rounded-[1000px] md:w-[232px]                                                                                                                                                                               
                             </span> */}
 
                         <button className="cb-btn cb-btn_more">
