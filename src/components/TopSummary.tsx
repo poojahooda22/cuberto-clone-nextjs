@@ -45,8 +45,7 @@ function TopSummary() {
 
                                 </span>
                                 <span>
-                                <span>                                    
-                                                                                                                                                      
+                                <span>                                                                                                                                                                                          
                             </span> */}
 
                         <button className="cb-btn cb-btn_more">
