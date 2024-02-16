@@ -49,8 +49,7 @@ function TopSummary() {
                                     How we Work
                                 </span>
                                 <span className="cb-btn-more-ripple absolute inset-0 bg-current z-0">
-                                
-                                                            
+                                                                                            
                             </span> */}
 
                         <button className="cb-btn cb-btn_more">
