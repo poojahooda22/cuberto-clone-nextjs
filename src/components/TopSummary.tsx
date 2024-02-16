@@ -37,7 +37,7 @@ function TopSummary() {
                     >
                         
                             {/* <span
-                                className={clsx( "group mt-[45px] w-[391px] h-[157px] bg-transparent rounded-[1000px] md:w-[232px]                                                                                                                                                                               
+                                className={clsx( "group mt-[45px] w-[391px] h-[157px]                                                                                                                                                                               
                             </span> */}
 
                         <button className="cb-btn cb-btn_more">
