@@ -47,7 +47,9 @@ function TopSummary() {
                                 <span className='text-center'>
                                     How we Work
                                 </span>
-                                <span className="cb-btn-more-ripple absolute inset-0 bg-current z-0"></span>
+                                <span className="cb-btn-more-ripple absolute inset-0 bg-current z-0">
+                                <span></span>
+                                </span>
                             </span>
 
                             </span>
