@@ -47,8 +47,7 @@ function TopSummary() {
                                 <span>
                                 <span className='text-center'>
                                     How we Work
-                                </span>
-                                                                                                                          
+                                </span>                                                                                                                          
                             </span> */}
 
                         <button className="cb-btn cb-btn_more">
