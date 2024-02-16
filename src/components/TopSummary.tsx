@@ -32,7 +32,8 @@ function TopSummary() {
                     leading-[29.84px] font-matter md:text-[21px] md:leading-[23px] lg:text-[21px] lg:leading-6 xl:text-[40px] xl:leading-[44px]'>
                         <p>Cuberto is a leading digital product agency focused on branding, UI/UX design, mobile, and web development.</p>
                     </div>
-                    <Link href='/about'
+                    <Link 
+                        href='/about'
                     >
                         
                             {/* <span
