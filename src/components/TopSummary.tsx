@@ -13,7 +13,8 @@ function TopSummary() {
       <div className=' px-[16px] md:px-[81px]'>
         <div>
             <div 
-                className='md:flex items-center justify-center gap-8'
+                className='md:flex items-center 
+                justify-center gap-8'
             >
                 <div 
                     className='w-[361px] h-[361px] md:w-[361px] 
