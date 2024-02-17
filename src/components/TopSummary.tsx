@@ -9,7 +9,7 @@ function TopSummary() {
         md:pt-[72px] md:pb-[120px]
         lg:pt-[135px] lg:pb-[225px]
         xl:pt-[180px] xl:pb-[300px]
-        w-full '
+        w-full'
     >
       <div className=' px-[16px] md:px-[81px]'>
         <div>
