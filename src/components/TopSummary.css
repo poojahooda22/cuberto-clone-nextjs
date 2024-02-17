@@ -22,7 +22,6 @@
     border-radius: 100px;
   }
 }
-
 .cb-btn_more:after {
     content: "";
     position: absolute;
