@@ -6,7 +6,7 @@ import Link from 'next/link';
 function TopSummary() {
   return (
     <section className=' pt-[67px] pb-[90px] 
-    md:pt-[72px] md:pb-[120px]
+        md:pt-[72px] md:pb-[120px]
     lg:pt-[135px] lg:pb-[225px]
     xl:pt-[180px] xl:pb-[300px]
     w-full '>
