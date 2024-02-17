@@ -25,7 +25,7 @@ function TopSummary() {
                         autoPlay 
                         playsInline loop muted 
                         src="/videos/summary.mp4" 
-                        className=' object-cover rounded-[1000px]  md:mb-[24px]
+                        className=' object-cover rounded-[1000px] md:mb-[24px]
                         '
                     ></video>
                 </div>
