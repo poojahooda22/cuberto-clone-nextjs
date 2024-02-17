@@ -35,7 +35,7 @@ function TopSummary() {
                     <Link 
                         href='/about'
                     >                  
-                        {/* \*/}
+                        
                         <button className="cb-btn cb-btn_more">
                             <span className="cb-btn_more-title">
                                 <span>How we work</span>
