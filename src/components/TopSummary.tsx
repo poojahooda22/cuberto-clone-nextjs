@@ -36,7 +36,7 @@ function TopSummary() {
                         href='/about'
                     >                  
                         {/* <span
-                            className={clsx( "group mt-[45px]*/}
+                            className={clsx( "group mt-[45p*/}
                         <button className="cb-btn cb-btn_more">
                             <span className="cb-btn_more-title">
                                 <span>How we work</span>
