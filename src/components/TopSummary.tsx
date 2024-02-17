@@ -14,7 +14,8 @@ function TopSummary() {
         <div className=''>
             <div className='md:flex items-center justify-center gap-8'>
                 <div 
-                    className='w-[361px] h-[361px] md:w-[361px] md:h-[361px] mb-[56px]
+                    className='w-[361px] h-[361px] md:w-[361px] 
+                    md:h-[361px] mb-[56px]
                     lg:w-[332px] lg:h-[332px] xl:w-[624px] xl:h-[624px] md:flex items-center' 
                 >
                     <video 
