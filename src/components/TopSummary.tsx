@@ -11,7 +11,7 @@ function TopSummary() {
     xl:pt-[180px] xl:pb-[300px]
     w-full '>
       <div className=' px-[16px] md:px-[81px] '>
-        <div className=''>
+        <div >
             <div className='md:flex items-center justify-center gap-8'>
                 <div 
                     className='w-[361px] h-[361px] md:w-[361px] 
