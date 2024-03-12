@@ -18,9 +18,10 @@ function TopSummary() {
                 justify-center gap-8'
             >
                 <div 
-                    className='w-[361px] h-[361px] md:w-[361px] 
+                    className='w-[361px] h-[361px] 
+                    md:w-[361px] 
                     md:h-[361px] mb-[56px]
-                    lg:w-[332px] lg:h-[332px] xl:w-[624px] 
+                    lg:w-[468px] lg:h-[468px] xl:w-[624px] 
                     xl:h-[624px] md:flex items-center' 
                 >
                     <video 
@@ -33,15 +34,15 @@ function TopSummary() {
                         '
                     ></video>
                 </div>
-                <div className=' sm:max-w-[302px] lg:max-w-[403px] xl:max-w-[688px] space-y-8'>
+                <div className=' sm:max-w-[302px] lg:max-w-[688px] space-y-8'>
                     <div className='max-w[58rem] text-[27px] tracking-normal
-                    leading-[29.84px] font-matter md:text-[21px] md:leading-[23px] lg:text-[21px] lg:leading-6 xl:text-[40px] xl:leading-[44px]'>
+                    leading-[29.84px] font-matter md:text-[21px] md:leading-[23px] lg:text-[40px] lg:leading-[44px] xl:text-[40px] '>
                         <p>Cuberto is a leading digital product agency focused on branding, UI/UX design, mobile, and web development.</p>
                     </div>
                     <Link 
                         href='/about'
                     >                                          
-                        <button className="cb-btn cb-btn_more">
+                        <button className="cb-btn cb-btn_more ">
                             <span className="cb-btn_more-title">
                                 <span>How we work</span>
                             </span>
