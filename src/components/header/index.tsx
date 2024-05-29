@@ -7,7 +7,6 @@ import  IonIcon  from '@reacticons/ionicons'
 import  Image from 'next/image';
 import Link from 'next/link';
 import Magnetic from '../magnetic/index';
-import { clsx } from "clsx";
 import { usePathname } from 'next/navigation';
 import { AnimatePresence } from 'framer-motion';
 import Nav from './navbar/Index';
