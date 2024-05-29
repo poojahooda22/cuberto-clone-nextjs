@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
-
+import { menuSlide } from '../anim';
 
 const navItems = [
     {
