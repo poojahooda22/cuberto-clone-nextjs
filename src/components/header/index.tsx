@@ -27,7 +27,7 @@ const Header = forwardRef(function index(props, ref) {
               <div className='hidden sm:flex items-center gap-[3vw]'>
                   {["Home", "Work", "About"].map((item, index) => {
                     return (
-                          <div key={index} className=''>
+                        <div key={index} className=''>
                               <Link href="/">
                                   <p className='text-[.8vw] flex items-center gap-[.2vw]'>
                                       {index === 1 && <span style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.2vw] h-[.2vw] rounded-full bg-green-500'></span> }
