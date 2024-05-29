@@ -16,9 +16,9 @@ export default function Home() {
       <main className={styles.main}>
         <Header ref={stickyElement} />
         <Cursor stickyElement={stickyElement} />
-        <TopHeader  />
+        {/* <TopHeader  />
         <VideoSection />
-        <TopSummary />
+        <TopSummary /> */}
       </main> 
   );
 }
