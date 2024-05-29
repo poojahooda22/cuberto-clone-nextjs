@@ -8,13 +8,12 @@
     box-sizing: border-box;
     cursor: pointer;
     z-index: 1;
-   
+
     .burger {
         width: 100%;
-        position: relative;
         display: flex;
         flex-direction: column;
-        gap: 4px;
+        gap: 3px;
         padding: 30px;
         cursor: pointer;
         pointer-events: none;
@@ -22,6 +21,7 @@
             display: block;
             content: "";
             width: 30px;
+            position: relative;
             height: 2px;
             z-index: 2;
             margin: auto;
@@ -30,11 +30,11 @@
             transition: transform 0.3s;          
         }
         &::after{
-            top: -8px;
+            top: -5px;
         }
 
         &::before{
-            top: 8px;
+            top: 5px;
         }
     }
     .bounds {
@@ -51,14 +51,21 @@
     .burgerActive{
 
         &::after{
-            transform: rotate(50deg);
+            transform: rotate(45deg);
             top: -1px;
         }
 
         &::before{
-            transform: rotate(-50deg);
-            top: 1px;
+            transform: rotate(-45deg);
+            top: 0px;
         }
+        
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .header{
         
     }
 }
