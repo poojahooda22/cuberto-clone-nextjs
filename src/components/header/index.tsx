@@ -20,7 +20,9 @@ const Header = forwardRef(function index(props, ref) {
     }, [pathname])
 
   return (
-    <div className={styles.header}>       
+    <>
+    <div className={styles.header}> 
+        
         <div className='flex items-center gap-[4vw]'>
             <Image src='/logo.svg' width={32} height={32} alt="" className='w-[20vw] sm:w-[5vw]' />
             <div className='hidden sm:flex items-center gap-[3vw]'>
@@ -37,16 +39,14 @@ const Header = forwardRef(function index(props, ref) {
                     )
                 })}
             </div>   
-        </div>      
+          </div>      
       <Magnetic>
           <div onClick={() => {setIsActive(!isActive)}} className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
             <div ref={ref} className={styles.bounds}></div>
           </div>
-      </Magnetic>
-      <AnimatePresence mode="wait">
-      {isActive && <Nav />}
-    </AnimatePresence>     
+      </Magnetic>     
     </div>
+    </>
   )
 })
 
