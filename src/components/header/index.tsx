@@ -26,7 +26,7 @@ const Header = forwardRef(function index(props, ref) {
               <Image src='/logo.svg' width={32} height={32} alt="" className='w-[20vw] sm:w-[5vw]' />
               <div className='hidden sm:flex items-center gap-[3vw]'>
                   {["Home", "Work", "About"].map((item, index) => {
-                      return (
+                    return (
                           <div key={index} className=''>
                               <Link href="/">
                                   <p className='text-[.8vw] flex items-center gap-[.2vw]'>
