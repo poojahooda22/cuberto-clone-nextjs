@@ -7,7 +7,7 @@ import  IonIcon  from '@reacticons/ionicons'
 import  Image from 'next/image';
 import Link from 'next/link';
 import { useRef } from 'react';
-import { gsap } from 'gsap';  
+ 
 import Magnetic from '../magnetic/index';
 import { clsx } from "clsx";
 import { usePathname } from 'next/navigation';
