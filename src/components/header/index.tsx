@@ -13,6 +13,7 @@ import { clsx } from "clsx";
 import { usePathname } from 'next/navigation';
 import { AnimatePresence } from 'framer-motion';
 
+
 const Header = forwardRef(function index(props, ref) {
     const [isActive, setIsActive] = useState(false);
     const pathname = usePathname();
