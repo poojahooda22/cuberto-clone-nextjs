@@ -40,9 +40,14 @@ const Header = forwardRef(function index(props, ref) {
               </div>   
             </div>      
         <Magnetic>
-          <div onClick={() => {setIsActive(!isActive)}} className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
-            <div ref={ref} className={styles.bounds}></div>
+          <div onClick={() => {setIsActive(!isActive)}} className={styles.button}>
+            <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
+              <div ref={ref} className={styles.bounds}></div>
+            </div>
           </div>
+          {/* <div onClick={() => {setIsActive(!isActive)}} className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
+            <div ref={ref} className={styles.bounds}></div>
+          </div> */}
         </Magnetic>     
       </div>
       <AnimatePresence mode="wait">
