@@ -12,7 +12,7 @@ import Magnetic from '../magnetic/index';
 import { clsx } from "clsx";
 import { usePathname } from 'next/navigation';
 import { AnimatePresence } from 'framer-motion';
-
+import Nav from './navbar/Index';
 
 const Header = forwardRef(function index(props, ref) {
     const [isActive, setIsActive] = useState(false);
