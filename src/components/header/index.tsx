@@ -22,7 +22,7 @@ const Header = forwardRef(function index(props, ref) {
   return (
     <>
       <div className={styles.header}> 
-          <div className='flex items-center gap-[4vw]'>
+        <div className='flex items-center gap-[4vw]'>
               <Image src='/logo.svg' width={32} height={32} alt="" className='w-[20vw] sm:w-[5vw]' />
               <div className='hidden sm:flex items-center gap-[3vw]'>
                   {["Home", "Work", "About"].map((item, index) => {
