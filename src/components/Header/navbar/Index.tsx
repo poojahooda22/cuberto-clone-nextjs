@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import { menuSlide } from '../anim';
@@ -23,6 +23,8 @@ const navItems = [
   ]
 
 function Nav() {
+    const pathname = usePathname();
+    const [selectedIndicator, setSelectedIndicator] = useState(pathname);
   return (
     <div className='w-[20vw] h-full'>
       Hello
