@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import { menuSlide } from '../anim'
 import styles from './style.module.scss';
+import Link from './link/Index'
 
 const navItems = [
     {
@@ -26,6 +27,7 @@ const navItems = [
 function Nav() {
     const pathname = usePathname();
     const [selectedIndicator, setSelectedIndicator] = useState(pathname);
+    
   return (
     <motion.div variants={menuSlide} initial="initial" animate="enter" exit="exit" className={styles.menu}>
        <div className={styles.body}>
