@@ -8,8 +8,11 @@ import  Image from 'next/image';
 import Link from 'next/link';
 import Magnetic from '../magnetic/index';
 import { usePathname } from 'next/navigation';
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import Nav from './navbar/Index';
+import { opacity } from './anim'
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
+import { IoCloseOutline } from "react-icons/io5";
 
 const Header = forwardRef(function index(props, ref) {
     const [isActive, setIsActive] = useState(false);
@@ -40,14 +43,14 @@ const Header = forwardRef(function index(props, ref) {
               </div>   
             </div>      
         <Magnetic>
-          <div onClick={() => {setIsActive(!isActive)}} className={styles.button}>
+          {/* <div onClick={() => {setIsActive(!isActive)}} className={styles.button}>
             <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
               <div ref={ref} className={styles.bounds}></div>
             </div>
-          </div>
-          {/* <div onClick={() => {setIsActive(!isActive)}} className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
-            <div ref={ref} className={styles.bounds}></div>
           </div> */}
+          <div onClick={() => {setIsActive(!isActive)}} className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
+            <div ref={ref} className={styles.bounds}></div>
+          </div>
         </Magnetic>     
       </div>
       <AnimatePresence mode="wait">
