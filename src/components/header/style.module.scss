@@ -20,9 +20,9 @@
         &::before, &::after{
             display: block;
             content: "";
-            width: 30px;
+            width: 40px;
             position: relative;
-            height: 2px;
+            height: 1px;
             z-index: 2;
             margin: auto;
             mix-blend-mode: difference;
