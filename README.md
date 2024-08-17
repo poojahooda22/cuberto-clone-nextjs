@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) proje
+This is a [Next.js](https://nextjs.org/) pr
 
 ## Getting Started
 
