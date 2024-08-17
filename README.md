@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped.
+This is a [Next.js](https://nextjs.org/) project bootstrap.
 
 ## Getting Started
 
