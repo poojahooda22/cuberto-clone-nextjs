@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootst.
+This is a [Next.js](https://nextjs.org/) project bo.
 
 ## Getting Started
 
