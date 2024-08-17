@@ -1,4 +1,4 @@
-This is a [Next.js](https://next/) 
+This is a [Nex
 
 ## Getting Started
 
