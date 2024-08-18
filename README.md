@@ -1,5 +1,5 @@
 
-## Getting St
+## Getting 
 
 First, run the development server:
 
