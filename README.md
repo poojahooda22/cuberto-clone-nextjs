@@ -1,5 +1,5 @@
 
-pnpm de
+pnpm d
 # or
 bun dev
 ```
