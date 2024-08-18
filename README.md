@@ -1,5 +1,5 @@
 
-yarn dev
+yarn de
 # or
 pnpm dev
 # or
