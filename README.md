@@ -1,6 +1,6 @@
 
 
-npm ru
+npm 
 # or
 yarn dev
 # or
