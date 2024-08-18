@@ -1,5 +1,5 @@
 
-pn
+p
 # or
 bun dev
 ```
