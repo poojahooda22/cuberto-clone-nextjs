@@ -1,6 +1,6 @@
 
 
-First, 
+Fir 
 
 ```bash
 npm run dev
