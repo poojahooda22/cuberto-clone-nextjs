@@ -1,6 +1,6 @@
 
 
-```bas
+```ba
 npm run dev
 # or
 yarn dev
