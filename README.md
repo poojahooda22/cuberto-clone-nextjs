@@ -1,6 +1,6 @@
 
 
-First, run the dev
+First, run the 
 
 ```bash
 npm run dev
