@@ -1,5 +1,5 @@
 
-## Getting Start
+## Getting St
 
 First, run the development server:
 
