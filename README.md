@@ -1,6 +1,6 @@
 
 
-npm run d
+npm run 
 # or
 yarn dev
 # or
