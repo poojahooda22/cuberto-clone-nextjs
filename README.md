@@ -1,6 +1,6 @@
 
 
-```bash
+```bas
 npm run dev
 # or
 yarn dev
