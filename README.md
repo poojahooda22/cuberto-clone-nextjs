@@ -1,6 +1,6 @@
 
 
-First, run the development server:
+First, run the development serv
 
 ```bash
 npm run dev
