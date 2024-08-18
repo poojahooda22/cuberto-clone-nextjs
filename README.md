@@ -1,5 +1,5 @@
 
-## Getting 
+## Getti
 
 First, run the development server:
 
