@@ -1,7 +1,7 @@
 
 
 ``
-npm run dev
+npm run de
 # or
 yarn dev
 # or
