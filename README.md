@@ -1,6 +1,6 @@
 
 
-First, ru
+First, 
 
 ```bash
 npm run dev
