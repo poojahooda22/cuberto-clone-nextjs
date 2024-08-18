@@ -1,6 +1,6 @@
 
 
-np
+n
 # or
 yarn dev
 # or
