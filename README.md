@@ -1,5 +1,5 @@
 
-yar
+ya
 # or
 pnpm dev
 # or
