@@ -1,5 +1,5 @@
 
-You canstart editing the page by modifying `app/page.tsx`. T
+You canstart editing the page by modifying `app/page.tsx`.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
