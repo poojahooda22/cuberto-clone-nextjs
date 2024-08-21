@@ -1,5 +1,5 @@
 
-This project uses [`next/font`](https://nextjs
+This project uses [`next/font`](https://next
 
 ## Learn More
 
