@@ -1,5 +1,5 @@
 
-This project uses [`next/font`](https://ne
+This project uses [`next/font`](https://
 
 ## Learn More
 
