@@ -1,5 +1,5 @@
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimi
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically opti
 
 ## Learn More
 
