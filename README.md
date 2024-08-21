@@ -1,5 +1,5 @@
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/fon)
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/f)
 
 ## Learn More
 
