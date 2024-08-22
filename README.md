@@ -1,5 +1,5 @@
 
-This project uses [`next/font`](htt
+This project uses [`next/font`](ht
 
 ## Learn More
 
