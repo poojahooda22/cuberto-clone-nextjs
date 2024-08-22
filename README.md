@@ -1,5 +1,5 @@
 
-This project uses [`nex`]
+This project uses [`ne`]
 
 ## Learn More
 
