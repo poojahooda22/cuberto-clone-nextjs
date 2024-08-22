@@ -1,5 +1,5 @@
 
-This project uses [`next/fon`]
+This project uses [`next/fo`]
 
 ## Learn More
 
