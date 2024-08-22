@@ -1,5 +1,5 @@
 
-This project uses [`next/font`](h
+This project uses [`next/font`](
 
 ## Learn More
 
