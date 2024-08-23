@@ -1,5 +1,5 @@
 
-Thi
+Th
 
 ## Learn More
 
