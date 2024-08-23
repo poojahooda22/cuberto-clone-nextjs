@@ -1,5 +1,5 @@
 
-This project use
+This project us
 
 ## Learn More
 
