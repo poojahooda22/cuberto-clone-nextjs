@@ -1,5 +1,5 @@
 
-To learn
+To lear
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API
   
 You can check out [the Next.js GitHub repository](https://g)
