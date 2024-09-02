@@ -1,6 +1,6 @@
 
 To 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Ne
+- [Next.js Documentation](https://nextjs.org/docs) - learn about N
   
 You can check out [the Next.js GitHub repository](https://g)
 ## Deploy on Vercel
