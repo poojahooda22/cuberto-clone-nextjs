@@ -1,6 +1,6 @@
 
 To lea
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js f
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js 
   
 You can check out [the Next.js GitHub repository](https://g)
 ## Deploy on Vercel
