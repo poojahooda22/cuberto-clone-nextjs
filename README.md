@@ -1,6 +1,6 @@
 
 This
-- [Next.js Documentation](https://nextjs.org) 
+- [Next.js Documentation](https://nextjs.or) 
   
 You can check out [the Next.js GitHub repository]()
 ## Deploy on Vercel
