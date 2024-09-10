@@ -1,4 +1,4 @@
 
 [Next.js Doc] 
   
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https/vereomnuiumltltap&tmentprd) from the creator of NeCheck ot or et.jseploment documentatio
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https/vereomnuiumltltap&tmentprd) from the creator of NeCheck ot or t.jseploment documentatio
