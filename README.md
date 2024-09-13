@@ -1,4 +1,4 @@
 
 [Next.js Doc] 
 
-The easiest way to deploy your Next.j
+The easiest way to deploy your Next.
