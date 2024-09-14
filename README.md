@@ -1,3 +1,3 @@
 
 [Next.js Doc]
-The easiest way to deploy y
+The easiest way to deploy 
