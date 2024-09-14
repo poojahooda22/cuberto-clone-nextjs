@@ -1,3 +1,3 @@
 
 [Next.js D
-The easiest way to 
+The easiest way to
