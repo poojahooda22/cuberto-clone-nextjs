@@ -1,3 +1,3 @@
 
 [Next.js Do
-The easiest way to de
+The easiest way to d
