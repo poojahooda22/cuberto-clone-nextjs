@@ -1,3 +1,3 @@
 
-[Next.js Do
+[Next.js D
 The easiest way to 
