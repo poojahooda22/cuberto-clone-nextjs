@@ -1,5 +1,5 @@
 
 [Next.js D
 The easiest way 
-bcdwhucbdeuvbcefyuvberbc ewdj
+bcdwhucbdeuvbcefyuvberbc ewd
 
