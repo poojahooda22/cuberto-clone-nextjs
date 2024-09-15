@@ -1,4 +1,4 @@
 
 [Next.js D
 The easiest way 
-bcdwhucbdeuvbcefyuvberbc ewdjkc s,mx sqlkx wk
+bcdwhucbdeuvbcefyuvberbc ewdjkc s,mx sqlkx w
