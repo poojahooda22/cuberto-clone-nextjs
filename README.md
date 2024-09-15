@@ -1,4 +1,4 @@
 
 [Next.js D
-The easiest wa
+The easiest w
 bcdwhucbdeuvbcefyuvberbc 
