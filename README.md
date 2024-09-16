@@ -1,4 +1,4 @@
 
 [Next.js 
 The easies
-bcdwhucbdeuvbce
+bcdwhucbdeuvbc
