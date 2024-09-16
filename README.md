@@ -1,4 +1,4 @@
 
 [Next.js
-The easie
+The easi
 bcdwhucbdeuvb
